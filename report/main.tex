@@ -1,0 +1,63 @@
+% ---------- SETUP ----------
+
+\documentclass[11pt, fleqn]{article}
+
+\input{setup.tex}
+\addbibresource{chapters/bib.bib}
+
+% ---------- DOCUEMENT ----------
+
+\begin{document}
+\titleformat{\section}{\centering\Huge\bfseries\sffamily\color{RedViolet}}{}{0em}{\MakeUppercase}{}
+\titleformat{\subsection}{\Large\bfseries\sffamily\color{RedViolet}}{\hspace{0.5cm}{\color{gray}\textbar}\hspace{0.2cm}}{0em}{}{}
+
+% \begin{titlepage}
+%     \begin{center}
+%         %\hline 
+%         %\huge{How gender affects reservations towards technology when our ecological worldviews are challenged}
+        
+%         \huge{How gender affects reservations towards technology when confronted to new ecological worldviews}
+        
+%         \vspace{0.1 cm}
+        
+%         \large{HUM-420 Social psychology II}\\
+%         %\vspace{0.4 cm}
+%         %\hline
+%         \vspace{1cm}
+%         \large{ADOURIAN Kari, CHEN Damien, PORCHER Benjamin, REY Anthony, TAING Nicolas}
+        
+%         \vspace{0.5 cm}
+        
+%         \large{\textbf{Professor} : BUTERA Fabrizio}\\
+%         \large{\textbf{Assistant} : AVERY Robert A.T.}\\
+%         \today
+%     \vspace{0.5 cm}
+%         \begin{figure}[H]
+%             \centering
+%             \includegraphics[scale = 0.06]{2560px-Logo_EPFL.svg.png}
+%         \end{figure}
+        
+%     \end{center}
+% %\newpage
+% %\tableofcontents
+
+% \begin{center}
+% \rule{15cm}{1pt}
+% \end{center}
+
+% \begin{center}
+% \rule{15cm}{1pt}
+% \end{center}
+
+% \end{titlepage}
+
+\input{chapters/introduction}
+\input{chapters/models}
+\input{chapters/method}
+\input{chapters/results_discussion}
+\input{chapters/conclusion}
+
+\clearpage
+\printbibliography
+
+\end{document}

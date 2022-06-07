@@ -1,0 +1,125 @@
+%-------------------------------
+%           PACKAGES
+%-------------------------------
+
+\usepackage[american]{babel}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{appendix}
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{units}
+\usepackage{verbatim}
+\usepackage{verbdef}  
+\usepackage{colortbl}
+\usepackage{nicefrac}
+\usepackage{physics}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{dsfont}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{titlesec}
+\usepackage{soul}
+\usepackage{tensor}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{slashed}
+\usepackage{cancel}
+\usepackage{bbold}
+\usepackage[
+    labelsep=endash
+    ]{caption}
+\usepackage[
+    top=1.5cm,
+    bottom=1.5cm,
+    left=1.5cm,
+    right=1.5cm
+    ]{geometry}
+\usepackage[
+    colorlinks,
+    bookmarks=false,
+    linkcolor=RedViolet,
+    urlcolor=TealBlue,
+    citecolor=Peach
+    ]{hyperref}
+\usepackage[
+    backend=biber,
+    style=numeric-comp,
+    sorting=none,
+    isbn=false,
+    url=false,
+    doi=false
+    ]{biblatex}
+\usepackage[
+    noabbrev
+    ]{cleveref}
+
+% \usepackage[T1]{fontenc}
+
+% \usepackage{tgpagella}
+
+\usepackage{newpxtext}
+\usepackage[defaultsans]{lato}
+\linespread{1.02}
+
+% \usepackage{lato}
+% \renewcommand{\sfdefault}{lato}
+% \usepackage[default]{lato}
+
+% \usepackage{fontspec}
+% \setsansfont{Arial}
+
+% \usepackage{palatino}
+% \usepackage{lato}
+% \renewcommand{\sfdefault}{lato}
+
+% \usepackage[defaultsans]{lato}
+% \usepackage[defaultserif]{mathpazo}
+
+%-------------------------------
+%           COMMANDS
+%-------------------------------
+
+\makeatletter
+    \@ifpackageloaded{babel}
+    {\addto\extrasamerican{
+        \renewcommand*{\figureautorefname}{Figure}
+        \renewcommand*{\tableautorefname}{Table}
+        \renewcommand*{\partautorefname}{Part}
+        \renewcommand*{\chapterautorefname}{Chapter}
+        \renewcommand*{\sectionautorefname}{Section}
+        \renewcommand{\figurename}{\bfseries\sffamily Figure}
+        \renewcommand{\tablename}{\bfseries\sffamily Table}
+        }
+        \providecommand{\subfigureautorefname}{\figureautorefname}
+    }{\relax}
+\makeatother
+
+\def \be {\begin{equation}}
+\def \ee {\end{equation}}
+\def \mc {\mathcal}
+\def \one {\mathbb 1}
+\def \electron {$e^-$ }
+
+\setcounter{MaxMatrixCols}{20}
+
+\newbibmacro{string+doi}[1]{%
+  \iffieldundef{doi}{#1}{\href{http://doi.org/\thefield{doi}}{#1}}}
+\DeclareFieldFormat*{title}{\usebibmacro{string+doi}{\mkbibemph{#1}}}
+\DeclareFieldFormat*{title}{\usebibmacro{string+doi}{\mkbibquote{#1}}}
+\renewbibmacro{in:}{}
+\AtEveryBibitem{%
+  \clearfield{note}
+  \clearfield{pages}}

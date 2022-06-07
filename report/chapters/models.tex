@@ -1,0 +1,118 @@
+% \clearpage
+\section{Models}	
+
+	\subsection{Transverse-Field Ising}	
+
+		The Transverse-Field Ising (TFI) model for spin-$1/2$ will be used as a benchmark of the simulations. It is defined for a chain of length $L$ with open boundary conditions as
+		\be \mc H = - J \sum_j \sigma^x_j \sigma^x_{j+1} - h \sum_j \sigma^z_j \label{eq:TFI} \ee
+		where it is made implicit that 
+		\be \sigma^\alpha_j = \underbrace{\one \otimes \cdots \otimes \one}_{j-1} \otimes \sigma^\alpha \otimes \underbrace{\one \otimes \cdots \otimes \one}_{L-j-1} \ee
+		with $\sigma^\alpha$ is the Pauli matrix for $\alpha=x,y,z$. This model undergoes a quantum phase transition at critical point $J=\pm h$. Here, only $J, h > 0$ will be considered.
+
+	\subsection{O'Brien and Fendley}
+
+		The model which shall be mainly studied is the one that will be called O'Brien and Fendley \cite{obrien2018} (OF) model for convenience. For open boundary conditions systems of $L$ spin-$1/2$, the Hamiltonian is written
+		\be \mc H = 2\lambda_I\mc H_I + \lambda_3\mc H_3 + \lambda_c\mc H_c \ee
+		where
+		\be \begin{cases} \mc H_I = i\sum_a \gamma_a \gamma_{a+1} \\ \mc H_3 = - \sum_a \gamma_{a-2}\gamma_{a-1}\gamma_{a+1}\gamma_{a+2} \\ \mc H_c = -i \sum_a \gamma_a\gamma_{a+2} \end{cases} \ee
+		It involves the Majorana fermion operators $\gamma_a$ being hermitian $\gamma_a = \gamma_a^\dagger$ and satisfying the Clifford algebra $\{\gamma_a, \gamma_b\} = 2\delta_{ab}$.
+
+		It is more convenient for spin-$1/2$ systems to write their Hamiltonian in terms of Pauli operators. To perform this mapping, the Jordan-Wigner transformation will be of interest.
+
+		It can be noted that the Majorana fermions can be defined in terms of fermionic creation $c^\dagger_j$ and annihilation $c_j$ operators on site $j$ as
+		\be \gamma_{2j-1} \equiv c_j + c^\dagger_j \qq{and} \gamma_{2j} \equiv i(c^\dagger_j-c_j) \label{eq:defMajo} \ee
+		It is straightforward to show that the choice \eqref{eq:defMajo} satisfies the properties of Majorana fermions. Indeed
+		\be \begin{aligned} \gamma^\dagger_{2j-1} &= c^\dagger_j + c_j = c_j + c^\dagger_j \\ &= \gamma_{2j-1} \\ \gamma^\dagger_{2j} &= -i(c_j - c^\dagger_j) = i(c^\dagger_j - c_j) \\ &= \gamma_{2j} \end{aligned} \ee
+		and noticing that the fermionic operators respect the anticommutation relations
+		\be \{c_i,c^\dagger_j\} = \delta_{ij} \qq{and} \{c_i,c_j\}=\{c^\dagger_i,c^\dagger_j\} = 0 \label{eq:fermionComm} \ee
+		the following holds
+		\be \begin{aligned} 
+			\{\gamma_{2j-1}, \gamma_{2j-1}\} &= \{c_j + c^\dagger_j, c_j + c^\dagger_j\} = \{c^\dagger_j,c_j\} + \{c_j,c^\dagger_j\} \\ &= 2 \\ 
+			\{\gamma_{2j}, \gamma_{2j}\} &= \{i(c^\dagger_j-c_j), i(c^\dagger_j-c_j)\} = -\{c^\dagger_j, -c_j\} - \{-c_j, c^\dagger_j\} \\ &= 2 \\
+			\{\gamma_{2j-1}, \gamma_{2j}\} &= \{c_j + c^\dagger_j, i(c^\dagger_j-c_j)\} = -i\{c^\dagger_j, c_j\} +i \{c_j, c^\dagger_j\} \\ &= 0
+		\end{aligned} \ee
+		meaning that the Clifford algebra is satisfied.
+
+		Now the goal is to map the fermionic operators onto the Pauli operators, and this mapping is the Jordan-Wigner transformation. Recall the commutation relations for the Pauli operators
+		\be [\sigma^\alpha_i, \sigma^\beta_j] = 2i\delta_{ij}\varepsilon_{\alpha\beta\gamma} \sigma^\gamma_j \qq{and} \{\sigma^\alpha_j, \sigma^\beta_j\} = 2\delta_{\alpha\beta} \label{eq:pauliComm} \ee
+		Defining $\sigma^\pm_j \equiv \frac 1 2 (\sigma^x_j \pm i\sigma^y_j)$, \eqref{eq:pauliComm} give on the same site
+		\be \{\sigma^+_j, \sigma^-_j\} = 1 \qq{and} \{\sigma^+_j, \sigma^+_j\} = \{\sigma^-_j, \sigma^-_j\} = 0 \label{eq:qubitAnti} \ee
+		an on different sites
+		\be [\sigma^+_i, \sigma^-_j] = 0 \qq{and} [\sigma^+_i, \sigma^+_j] = [\sigma^-_i, \sigma^-_j] = 0 \quad \forall i\neq j \label{eq:qubitComm} \ee
+		This is the anticommutation relation for fermionic operators on the same site. It is convenient to define operators $b_j$ and $b^\dagger_j$ as
+		\be \sigma^+_j \equiv b_j \qq{and} \sigma^-_j \equiv b^\dagger_j \ee
+		Hence, $\{b_j,b^\dagger_j\} = 1$. Introduce the writing
+		\be b_j = e^{i\pi\sum_{k=1}^{j-1} c^\dagger_k c_k}c_j \qq{and} b^\dagger_j = e^{-i\pi\sum_{k=1}^{j-1} c^\dagger_k c_k}c^\dagger_j \label{eq:defb} \ee
+		and define for simplicity
+		\be J_j \equiv e^{i\pi\sum_{k=1}^{j-1} c^\dagger_k c_k} \ee
+		Few properties will be important
+		\begin{align}
+			&\bullet \ J^\dagger_j = J_j \label{eq:propJ1} \\
+			&\bullet \ \textstyle J_j = \prod_{k=1}^{j-1} (1-2c^\dagger_k c_k) \label{eq:propJ2} \\
+			&\bullet \ J^2_j = \one \label{eq:propJ3} \\
+			&\bullet \ [J_i,c_j] = [J_i, c^\dagger_j] =0 \quad \forall i\leq j \label{eq:propJ4}
+		\end{align}
+		To prove \eqref{eq:propJ1}, note that $c^\dagger_k c_k \in \{0,1\}$, then $\sum_{k=1}^{j-1} c^\dagger_k c_k \in \mathbb N$. This implies that, $J^\dagger_j = e^{-in\pi} = e^{in\pi} = J_j$ for $n \in \mathbb N$.\\
+		To prove \eqref{eq:propJ2}, recall that $c^\dagger_k c_k \in \{0,1\}$ then $e^{i\pi\sum_{k=1}^{j-1} c^\dagger_k c_k} = \prod_{k=1}^{j-1} e^{i\pi c^\dagger_k c_k}$. Since
+		\be e^{i\pi c^\dagger_k c_k} = \begin{cases} 1 & \text{if } c^\dagger_k c_k = 0 \\ -1 & \text{if } c^\dagger_k c_k = 1 \end{cases} \implies e^{i\pi c^\dagger_k c_k} = 1-2c^\dagger_k c_k \ee
+		To prove \eqref{eq:propJ3}, simply notice that using $c_k c^\dagger_k = 1-c^\dagger_k c_k$
+		\be \begin{split} (1-2c^\dagger_k c_k)^2 &= 1 - 4c^\dagger_k c_k + 4c^\dagger_k c_k = 1 -4 c^\dagger_k c_k + 4c^\dagger_k c_k \\ &= 1 \end{split} \ee
+		To prove \eqref{eq:propJ4}, it suffices to recall that every fermionic operator anticommute with any other one on different sites. Since $J_i$ involves only operators $c^\dagger_k c_k \ \forall k<i$, passing any $c_j, c^\dagger_j$ across $J_i$ costs a factor $(-1)^2=1$.
+		These allow to write
+		\be \begin{split} b^\dagger_j b_j &= c^\dagger_j J^\dagger J_j c_j = c^\dagger J^
+		2_j c_j \\ &= c^\dagger_j c_j \end{split} \label{eq:bbcc} \ee
+
+		Now remains to prove that the definition \eqref{eq:defb} gives the correct anticommutation relations \eqref{eq:qubitAnti} on the same site and commutation relations \eqref{eq:qubitComm} on different sites. On the same site
+		\be \begin{aligned} 
+			\{b_j, b^\dagger_j\} &= b_j b^\dagger_j + b^\dagger_j b_j = c_j c^\dagger_j + c^\dagger_j c_j = 1 \\
+			\{b_j, b_j\} &= 2 b_j b_j = 2 J_jc_jJ_jc_j = 2 c_jc_j = 0 \\
+			\{b^\dagger_j, b^\dagger_j\} &= 2 b^\dagger_j b^\dagger_j = 2 c^\dagger_jJ^\dagger_jc^\dagger_jJ^\dagger_j = 2 c^\dagger_jc^\dagger_j = 0 
+		\end{aligned} \ee
+		On different sites, assuming without loss of generality $i<j$, 
+		\be \begin{aligned}
+			b_i b^\dagger_j &= c_i c^\dagger_j e^{-i\pi\sum_{k=i}^{j-1} c^\dagger_k c_k} \\
+			b^\dagger_j b_i &= c^\dagger_j e^{-i\pi\sum_{k=i}^{j-1} c^\dagger_k c_k} c_i
+		\end{aligned} \ee
+		Here, passing $c_i$ to the left is no longer straightforwardly free. The term in the exponential $c^\dagger_i c_i =0$ since any spin on site $i$ is killed by the $c_i$ on the right. If the $c_i$ is passed to the left of the exponential, then $c^\dagger_i c_i =1$ since otherwise the whole term would have vanished by the application of $c_i$ on the right. This passage implies a factor $e^{-i\pi} = -1$. Then passing $c_i$ to the left of $c^\dagger_j$ costs another factor $-1$, which means $b_i b^\dagger_j = b^\dagger_j b_i$. Then, performing the same operations and noticing that also $c^\dagger_i$ enforces $c^\dagger_i c_i =1$, whereas when passed to the left, the term in exponential is $c^\dagger_i c_i =0$, since states with $c^\dagger_i c_i =1$ vanish under application of $c^\dagger_i$, 
+		\be \begin{aligned}
+			b_i b_j &= c_i c_j e^{2i\pi\sum_{k=1}^{i-1} c^\dagger_k c_k + i\pi\sum_{k=i}^{j-1} c^\dagger_k c_k} = b_j b_i \\
+			b^\dagger_i b^\dagger_j &= c^\dagger_i c^\dagger_j e^{-2i\pi\sum_{k=1}^{i-1} c^\dagger_k c_k - i\pi\sum_{k=i}^{j-1} c^\dagger_k c_k} = b^\dagger_j b^\dagger_i
+		\end{aligned} \ee
+		Therefore
+		\be [b_i, b^\dagger_j] = 0, \qq{and} [b_i, b_j] = [b^\dagger_i, b^\dagger_j] = 0 \quad \forall i\neq j \ee
+		Finally, it remains to check the commutation relation on the same site. For the spin operators
+		\be \begin{split} [\sigma^+_j, \sigma^-_j] &= \frac 1 4 [\sigma^x_j+i\sigma^y_j, \sigma^x_j-i\sigma^y_j] = -\frac i 2 [\sigma^x_j,\sigma^y_j] \\ &= \sigma^z_j \end{split} \ee
+		For the definition \eqref{eq:defb}
+		\be [b_j, b^\dagger_j] = c_j c^\dagger_j - c^\dagger_j c_j = 1 - 2c^\dagger_j c_j \ee
+		and recalling that by definition
+		\be \sigma^x_j = b_j + b^\dagger_j \qq{and} \sigma^y_j = i(b^\dagger_j - b_j) \ee
+		if appears that
+		\be \begin{split} [\sigma^x_j,  \sigma^y_j] &= [b_j + b^\dagger_j, b^\dagger_j - b_j] = i[b_j b^\dagger_j - b^\dagger_j b_j - b^\dagger_j b_j + b_j b^\dagger_j] \\ &= 2i(1 - 2 b^\dagger_j b_j) \end{split} \ee
+		However, $[\sigma^x_j,  \sigma^y_j]=2i\sigma^z_j$, hence
+		\be \sigma^z_j = 1 - 2 b^\dagger_j b_j \ee
+		which is what wanted using \eqref{eq:bbcc}. This completes the proof that the operators defined in \eqref{eq:defb} satisfy \eqref{eq:pauliComm}.
+
+		In the end, the Majorana fermion operators can be expressed in terms of the Pauli operators as
+		\be \begin{split} \gamma_{2j-1} &= c_j + c^\dagger_j = J_j(b_j + b^\dagger_j) = J_j \sigma^x_j = \textstyle \sigma^x_j \prod_{k=1}^{j-1} (1 - 2c^\dagger_k c_k) \\ \gamma_{2j} &= i(c^\dagger_j - c_j) = iJ_j(b^\dagger_j - b_j) = J_j \sigma^y_j = \textstyle \sigma^x_j \prod_{k=1}^{j-1} (1 - 2c^\dagger_k c_k) \end{split} \ee
+		therefore, using \eqref{eq:propJ2}
+		\be \gamma_{2j-1} = \sigma^x_j \prod_{k=1}^{j-1} \sigma^z_k \qq{and} \gamma_{2j} = \sigma^y_j \prod_{k=1}^{j-1} \sigma^z_k \ee
+
+		Now, the goal is to express the Hamiltonian in terms of Pauli operators. First, to see the pattern, try to compute
+		\be \begin{split} \sigma^x_j \sigma^x_{j+1} &\stackrel{\eqref{eq:propJ4}}{=} (c_j + c^\dagger_j) (c_{j+1} + c^\dagger_{j+1}) J_j J_{j+1} \\ &\stackrel{\eqref{eq:propJ2}}{=} (c_j + c^\dagger_j) (c_{j+1} + c^\dagger_{j+1}) \textstyle \prod_{k=1}^{j-1} (1-2c^\dagger_k c_k)^2 (1-2c^\dagger_j c_j) \\ &= (c_jc_{j+1} + c_jc^\dagger_{j+1} + c^\dagger_j c_{j+1} + c^\dagger_j c^\dagger_{j+1}) (1-2c^\dagger_j c_j) \\ &\stackrel{\eqref{eq:fermionComm}}{=} c_jc_{j+1} + 2c_{j+1} c_j + c_jc^\dagger_{j+1} + 2c^\dagger_{j+1}c_j + c^\dagger_j c_{j+1} + c^\dagger_j c^\dagger_{j+1} \\ &\stackrel{\eqref{eq:fermionComm}}{=} -c_jc_{j+1} - c_jc^\dagger_{j+1} + c^\dagger_j c_{j+1} + c^\dagger_j c^\dagger_{j+1} \\ &= (c^\dagger_j -c_j)(c_{j+1} + c^\dagger_{j+1}) \\ &\stackrel{\eqref{eq:defMajo}}{=} -i\gamma_{2j}\gamma_{2j+1} \end{split} \ee 
+		Also, 
+		\be \begin{split} \gamma_{2j}\gamma_{2j+1} &= i (c_j + c^\dagger_j)(c^\dagger_j -c_j) = i(c_jc^\dagger_j - c^\dagger_j c_j) = i(1-2c^\dagger_j c_j) \\ &= i \sigma^z_j \\ \implies \sigma^z_j &= -i\gamma_{2j-1}\gamma_{2j} \end{split} \ee
+		Noticing the possibility to split $\sum_a = \sum_{a\text{ even}} + \sum_{a\text{ odd}}$ allows to write 
+		\be \mc H_I = -\sum_j \sigma^x_j \sigma^x_{j+1} - \sum_j \sigma^z_j \ee
+		The identification $\gamma_a \gamma_{a+1} \rightarrow \gamma_{2j-1}\gamma_{2j} + \gamma_{2j}\gamma_{2j+1}$ enables to express
+		\be \begin{split} \gamma_{a-2}\gamma_{a-1}\gamma_{a+1}\gamma_{a+2} &\rightarrow \gamma_{2j-3}\gamma_{2j-2}\gamma_{2j}\gamma_{2j+1} + \gamma_{2j-2}\gamma_{2j-1}\gamma_{2j+1}\gamma_{2j+2} \\ &= i\sigma^z_{j-1} i\sigma^x_j\sigma^x_{j+1} + i\sigma^x_{j-1}\sigma^x_j i\sigma^z_{j+2} \\ &\xrightarrow{j\rightarrow j+1} -\sigma^z_j\sigma^x_{j+1}\sigma^x_{j+2} -\sigma^x_j\sigma^x_{j+1}\sigma^z_{j+2} \end{split} \ee
+		Therefore
+		\be \mc H_3 = \sum_j \sigma^z_j\sigma^x_{j+1}\sigma^x_{j+2} + \sum_j \sigma^x_j\sigma^x_{j+1}\sigma^z_{j+2} \ee
+		Finally, with $\gamma_a \gamma_{a+2} \rightarrow \gamma_{2j}\gamma_{2j+2} + \gamma_{2j-1}\gamma_{2j+1}$
+		\be \begin{split} \gamma_{2j-1}\gamma_{2j+1} &= (c_j + c^\dagger_j) (c_{j+1} + c^\dagger_{j+1}) \\ &= c_jc_{j+1} + c_jc^\dagger_{j+1} + c^\dagger_j c_{j+1} + c^\dagger_j c^\dagger_{j+1} \\ &= (-c_jc_{j+1} + -c_jc^\dagger_{j+1} + c^\dagger_j c_{j+1} + c^\dagger_j c^\dagger_{j+1}) (1 - 2c^\dagger_j c_j) \\ &= (c^\dagger_j - c_j) (c_{j+1} + c^\dagger_{j+1}) J_j J_{j+1} \\ &= -i\sigma^y_j \sigma^x_{j+1} \\ \implies \sigma^y_j \sigma^x_{j+1} &= i\gamma_{2j-1}\gamma_{2j+1} \end{split} \ee
+		and doing the same
+		\be \begin{split} \gamma_{2j}\gamma_{2j+2} &= -(c^\dagger_j - c_j) (c^\dagger_{j+1} - c_{j+1}) \\ &= -(c^\dagger_j c^\dagger_{j+1} - c^\dagger_j c_{j+1} - c_jc^\dagger_{j+1} + c_jc_{j+1}) \\ &= -(c^\dagger_j c^\dagger_{j+1} - c^\dagger_j c_{j+1} + c_jc^\dagger_{j+1} - c_jc_{j+1}) (1 - 2c^\dagger_j c_j) \\ &= -(c_j + c^\dagger_j) (c^\dagger_{j+1} - c_{j+1}) J_j J_{j+1} \\ &= i\sigma^x_j \sigma^x_{j+1} \\ \implies \sigma^x_j \sigma^y_{j+1} &= -i\gamma_{2j}\gamma_{2j+2} \end{split} \ee
+		This implies
+		\be \mc H_c = \sum_j \sigma^x_j\sigma^y_{j+1} - \sum_j \sigma^y_j\sigma^y_{j+1} \ee
+
+		To sum up, the OF model is
+		\be \mc H = - 2\lambda_I \sum_j [\sigma^x_j \sigma^x_{j+1} + \sigma^z_j] + \lambda_3 \sum_j [\sigma^z_j\sigma^x_{j+1}\sigma^x_{j+2} + \sigma^x_j\sigma^x_{j+1}\sigma^z_{j+2}] + \lambda_c \sum_j [\sigma^x_j\sigma^y_{j+1} - \sigma^y_j\sigma^y_{j+1}] \label{eq:OF} \ee

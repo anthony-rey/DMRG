@@ -1,0 +1,13 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "setup.xdv" "setup.pdf" "setup" 0
+  "setup.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "setup.pdf"
+["xelatex"] 1654370519 "setup.tex" "setup.xdv" "setup" 1654370519
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1652606308 5825169 3c66a725b6ac40393dd09de4600c79ae ""
+  "setup.aux" 1654370456 32 3985256e7290058c681f74d7a3565a19 ""
+  "setup.tex" 1654370437 2882 795b5cf53cbd15e635c571b3fe409276 ""
+  (generated)
+  "setup.log"
+  "setup.xdv"

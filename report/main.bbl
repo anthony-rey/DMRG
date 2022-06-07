@@ -1,0 +1,1143 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{obrien2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fd95d1bbea6cf62b61709310bcbc3be1}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=402506e34e7ae68fa1f1679d86cfb86d}{%
+           family={Fendley},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3c3e2250a291e435455593f7c2b6b227}
+      \strng{fullhash}{3c3e2250a291e435455593f7c2b6b227}
+      \strng{bibnamehash}{3c3e2250a291e435455593f7c2b6b227}
+      \strng{authorbibnamehash}{3c3e2250a291e435455593f7c2b6b227}
+      \strng{authornamehash}{3c3e2250a291e435455593f7c2b6b227}
+      \strng{authorfullhash}{3c3e2250a291e435455593f7c2b6b227}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{title}{Lattice Supersymmetry and Order-Disorder Coexistence in the Tricritical Ising Model}
+      \field{volume}{120}
+      \field{year}{2018}
+      \field{pages}{206403}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.120.206403
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.120.206403
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.120.206403
+      \endverb
+    \endentry
+    \entry{schollwoeck2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47c87e3553597a3c6f21f2ae72571491}{%
+           family={Schollwöck},
+           familyi={S\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{47c87e3553597a3c6f21f2ae72571491}
+      \strng{fullhash}{47c87e3553597a3c6f21f2ae72571491}
+      \strng{bibnamehash}{47c87e3553597a3c6f21f2ae72571491}
+      \strng{authorbibnamehash}{47c87e3553597a3c6f21f2ae72571491}
+      \strng{authornamehash}{47c87e3553597a3c6f21f2ae72571491}
+      \strng{authorfullhash}{47c87e3553597a3c6f21f2ae72571491}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The density-matrix renormalization group method (DMRG) has established itself over the last decade as the leading method for the simulation of the statics and dynamics of one-dimensional strongly correlated quantum lattice systems. In the further development of the method, the realization that DMRG operates on a highly interesting class of quantum states, so-called matrix product states (MPS), has allowed a much deeper understanding of the inner structure of the DMRG method, its further potential and its limitations. In this paper, I want to give a detailed exposition of current DMRG thinking in the MPS language in order to make the advisable implementation of the family of DMRG algorithms in exclusively MPS terms transparent. I then move on to discuss some directions of potentially fruitful further algorithmic development: while DMRG is a very mature method by now, I still see potential for further improvements, as exemplified by a number of recently introduced algorithms.}
+      \field{issn}{0003-4916}
+      \field{journaltitle}{Annals of Physics}
+      \field{note}{January 2011 Special Issue}
+      \field{title}{The density-matrix renormalization group in the age of matrix product states}
+      \field{volume}{326}
+      \field{year}{2011}
+      \field{pages}{96\bibrangedash 192}
+      \range{pages}{97}
+      \verb{doi}
+      \verb doi.org/10.1016/j.aop.2010.09.012
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003491610001752
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003491610001752
+      \endverb
+    \endentry
+    \entry{pfeifer2015}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=5870b59a2736c1823ddd3a710559fdfb}{%
+           family={Pfeifer},
+           familyi={P\bibinitperiod},
+           given={Robert\bibnamedelimb N.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c97a02980e2314fd5dd38ef6ff153840}{%
+           family={Evenbly},
+           familyi={E\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=36cb753ecbc7eb76a18b336064edb452}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sukhwinder},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d3f8c6663f1fa635f1b95e9d2da51116}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Guifre},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8e1cfb68f45ae91f572d3c990fc012c8}
+      \strng{fullhash}{0fab4edcefc58680f16c5d5b3ec68f7b}
+      \strng{bibnamehash}{8e1cfb68f45ae91f572d3c990fc012c8}
+      \strng{authorbibnamehash}{8e1cfb68f45ae91f572d3c990fc012c8}
+      \strng{authornamehash}{8e1cfb68f45ae91f572d3c990fc012c8}
+      \strng{authorfullhash}{0fab4edcefc58680f16c5d5b3ec68f7b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NCON: A tensor network contractor for MATLAB}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1402.0939
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1402.0939
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1402.0939
+      \endverb
+      \keyw{Computational Physics (physics.comp-ph),Strongly Correlated Electrons (cond-mat.str-el),Quantum Physics (quant-ph),FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
+    \entry{lehoucq1998}{book}{}
+      \name{author}{3}{}{%
+        {{hash=9faf1992e0669285d2fe55afad38c512}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={R.B.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7141fdcd58ff278e0ad30d354dab3ff3}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8a9ab49f0fe827e25142df0f1ec23209}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Society for Industrial}%
+        {Applied Mathematics}%
+      }
+      \strng{namehash}{30f22b1adc521f82229f299f0518a4f6}
+      \strng{fullhash}{30f22b1adc521f82229f299f0518a4f6}
+      \strng{bibnamehash}{30f22b1adc521f82229f299f0518a4f6}
+      \strng{authorbibnamehash}{30f22b1adc521f82229f299f0518a4f6}
+      \strng{authornamehash}{30f22b1adc521f82229f299f0518a4f6}
+      \strng{authorfullhash}{30f22b1adc521f82229f299f0518a4f6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780898714074}
+      \field{series}{Software, Environments, Tools}
+      \field{title}{ARPACK Users' Guide: Solution of Large-scale Eigenvalue Problems with Implicitly Restarted Arnoldi Methods}
+      \field{year}{1998}
+      \verb{doi}
+      \verb https://doi.org/10.1137/1.9780898719628
+      \endverb
+      \verb{urlraw}
+      \verb https://books.google.ch/books?id=iMUea23N\_CQC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ch/books?id=iMUea23N%5C_CQC
+      \endverb
+    \endentry
+    \entry{dey2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f2bfac99d35fd4d2d6b9235d4414687e}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Dayasindhu},
+           giveni={D\bibinitperiod}}}%
+        {{hash=00b34d38109129b3870fe48e3e1465fb}{%
+           family={Maiti},
+           familyi={M\bibinitperiod},
+           given={Debasmita},
+           giveni={D\bibinitperiod}}}%
+        {{hash=36fe506a7e29fa4344df44e245023cf1}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Manoranjan},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c3f178a495947f3c5d82ca613773b60}
+      \strng{fullhash}{3c3f178a495947f3c5d82ca613773b60}
+      \strng{bibnamehash}{3c3f178a495947f3c5d82ca613773b60}
+      \strng{authorbibnamehash}{3c3f178a495947f3c5d82ca613773b60}
+      \strng{authornamehash}{3c3f178a495947f3c5d82ca613773b60}
+      \strng{authorfullhash}{3c3f178a495947f3c5d82ca613773b60}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Papers in Physics}
+      \field{title}{An efficient density matrix renormalization group algorithm for chains with periodic boundary condition}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{pages}{080006}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.4279/pip.080006
+      \endverb
+      \verb{urlraw}
+      \verb https://node1.culturalhosting.com/papersinphysics/article/view/341
+      \endverb
+      \verb{url}
+      \verb https://node1.culturalhosting.com/papersinphysics/article/view/341
+      \endverb
+    \endentry
+    \entry{pippan2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e572447cdae3fbf6b9d59b54851a7dee}{%
+           family={Pippan},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f310d2e0232138ba6117db89589f7c32}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c6348526a5bbbf2fb871821a256f4a03}{%
+           family={Evertz},
+           familyi={E\bibinitperiod},
+           given={Hans\bibnamedelima Gerd},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fd4a16124aac2d7ed2754234926a6ce2}
+      \strng{fullhash}{fd4a16124aac2d7ed2754234926a6ce2}
+      \strng{bibnamehash}{fd4a16124aac2d7ed2754234926a6ce2}
+      \strng{authorbibnamehash}{fd4a16124aac2d7ed2754234926a6ce2}
+      \strng{authornamehash}{fd4a16124aac2d7ed2754234926a6ce2}
+      \strng{authorfullhash}{fd4a16124aac2d7ed2754234926a6ce2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Efficient matrix-product state method for periodic boundary conditions}
+      \field{volume}{81}
+      \field{year}{2010}
+      \field{pages}{081103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.81.081103
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.81.081103
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.81.081103
+      \endverb
+    \endentry
+    \entry{verstraete2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=085ab1d28e21b822e7bebcfb7d68f99f}{%
+           family={Verstraete},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=cefb40073cbfd240f78f0c1be54c3caa}{%
+           family={Porras},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e95cc0745e2fbc83da963e5d6ab9c104}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{8e5067ee11b5724c49a45c4a54b8ba28}
+      \strng{fullhash}{8e5067ee11b5724c49a45c4a54b8ba28}
+      \strng{bibnamehash}{8e5067ee11b5724c49a45c4a54b8ba28}
+      \strng{authorbibnamehash}{8e5067ee11b5724c49a45c4a54b8ba28}
+      \strng{authornamehash}{8e5067ee11b5724c49a45c4a54b8ba28}
+      \strng{authorfullhash}{8e5067ee11b5724c49a45c4a54b8ba28}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Density Matrix Renormalization Group and Periodic Boundary Conditions: A Quantum Information Perspective}
+      \field{volume}{93}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.1103/physrevlett.93.227205
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103%2Fphysrevlett.93.227205
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103%2Fphysrevlett.93.227205
+      \endverb
+    \endentry
+    \entry{pirvu2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bf009036b4fb2930621cc6a2dc041ac8}{%
+           family={Pirvu},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=085ab1d28e21b822e7bebcfb7d68f99f}{%
+           family={Verstraete},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f62d54d12f1933af26fb09ba7084c940}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2f043534d0dee3621f981bfdafcc35d2}
+      \strng{fullhash}{2f043534d0dee3621f981bfdafcc35d2}
+      \strng{bibnamehash}{2f043534d0dee3621f981bfdafcc35d2}
+      \strng{authorbibnamehash}{2f043534d0dee3621f981bfdafcc35d2}
+      \strng{authornamehash}{2f043534d0dee3621f981bfdafcc35d2}
+      \strng{authorfullhash}{2f043534d0dee3621f981bfdafcc35d2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Exploiting translational invariance in matrix product state simulations of spin chains with periodic boundary conditions}
+      \field{volume}{83}
+      \field{year}{2011}
+      \field{pages}{125104}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.83.125104
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.83.125104
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.83.125104
+      \endverb
+    \endentry
+    \entry{chepiga2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=db949d3539c23197fdc810610f282451}{%
+           family={Chepiga},
+           familyi={C\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5ecae643825cd4b71c24d994dbd4253a}{%
+           family={Mila},
+           familyi={M\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0b0a88f71ee0688075de2421e608398f}
+      \strng{fullhash}{0b0a88f71ee0688075de2421e608398f}
+      \strng{bibnamehash}{0b0a88f71ee0688075de2421e608398f}
+      \strng{authorbibnamehash}{0b0a88f71ee0688075de2421e608398f}
+      \strng{authornamehash}{0b0a88f71ee0688075de2421e608398f}
+      \strng{authorfullhash}{0b0a88f71ee0688075de2421e608398f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Excitation spectrum and density matrix renormalization group iterations}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{054425}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.96.054425
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.96.054425
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.96.054425
+      \endverb
+    \endentry
+    \entry{calabrese2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ff8cd1b95a97984f0ddd7974d624dcce}{%
+           family={Calabrese},
+           familyi={C\bibinitperiod},
+           given={Pasquale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4ac5aa12178c604ccb16b418a3bdc44c}{%
+           family={Cardy},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{7c41d949114e1e57289dfa73c9196c8d}
+      \strng{fullhash}{7c41d949114e1e57289dfa73c9196c8d}
+      \strng{bibnamehash}{7c41d949114e1e57289dfa73c9196c8d}
+      \strng{authorbibnamehash}{7c41d949114e1e57289dfa73c9196c8d}
+      \strng{authornamehash}{7c41d949114e1e57289dfa73c9196c8d}
+      \strng{authorfullhash}{7c41d949114e1e57289dfa73c9196c8d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We carry out a systematic study of entanglement entropy in relativistic quantum field theory. This is defined as the von Neumann entropy SA = −Tr ρAlogρA corresponding to the reduced density matrix ρA of a subsystem A. For the case of a 1+1-dimensional critical system, whose continuum limit is a conformal field theory with central charge c, we re-derive the result of Holzhey et al when A is a finite interval of length in an infinite system, and extend it to many other cases: finite systems, finite temperatures, and when A consists of an arbitrary number of disjoint intervals. For such a system away from its critical point, when the correlation length ξ is large but finite, we show that , where is the number of boundary points of A. These results are verified for a free massive field theory, which is also used to confirm a scaling ansatz for the case of finite size off-critical systems, and for integrable lattice models, such as the Ising and XXZ models, which are solvable by corner transfer matrix methods. Finally the free field results are extended to higher dimensions, and used to motivate a scaling form for the singular part of the entanglement entropy near a quantum phase transition.}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{month}{6}
+      \field{number}{06}
+      \field{title}{Entanglement entropy and quantum field theory}
+      \field{volume}{2004}
+      \field{year}{2004}
+      \field{pages}{P06002}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2004/06/p06002
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1742-5468/2004/06/p06002
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1742-5468/2004/06/p06002
+      \endverb
+    \endentry
+    \entry{nishimoto2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5cce0a5faf82bdce7a84b5ab066332d1}{%
+           family={Nishimoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5cce0a5faf82bdce7a84b5ab066332d1}
+      \strng{fullhash}{5cce0a5faf82bdce7a84b5ab066332d1}
+      \strng{bibnamehash}{5cce0a5faf82bdce7a84b5ab066332d1}
+      \strng{authorbibnamehash}{5cce0a5faf82bdce7a84b5ab066332d1}
+      \strng{authornamehash}{5cce0a5faf82bdce7a84b5ab066332d1}
+      \strng{authorfullhash}{5cce0a5faf82bdce7a84b5ab066332d1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Tomonaga-Luttinger-liquid criticality: Numerical entanglement entropy approach}
+      \field{volume}{84}
+      \field{year}{2011}
+      \field{pages}{195108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.84.195108
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.84.195108
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.84.195108
+      \endverb
+    \endentry
+    \entry{francesco1997}{book}{}
+      \name{author}{3}{}{%
+        {{hash=bcda20c482722039d46c18b9186be4c1}{%
+           family={Francesco},
+           familyi={F\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9f61021095c369f7a804116d297250d6}{%
+           family={Mathieu},
+           familyi={M\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=34f0ec3cd13d92097b92789fb9626c06}{%
+           family={Sénéchal},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{e342dd6d70ab1d1b83f78dca685d40dc}
+      \strng{fullhash}{e342dd6d70ab1d1b83f78dca685d40dc}
+      \strng{bibnamehash}{e342dd6d70ab1d1b83f78dca685d40dc}
+      \strng{authorbibnamehash}{e342dd6d70ab1d1b83f78dca685d40dc}
+      \strng{authornamehash}{e342dd6d70ab1d1b83f78dca685d40dc}
+      \strng{authorfullhash}{e342dd6d70ab1d1b83f78dca685d40dc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conformal field theory}
+      \field{year}{2012}
+    \endentry
+    \entry{friedan1985}{article}{}
+      \name{author}{3}{}{%
+        {{hash=67ebcac264e054a10e8761c83c63b7fc}{%
+           family={Friedan},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9648453aaab2909a966fc9d40a1c4fbc}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Zongan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c4a83a561117ef4c7acb1a0353ee12a5}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{fullhash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{bibnamehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{authorbibnamehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{authornamehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{authorfullhash}{dd1d6312994ea1da79268812b6d4ce01}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We discuss the realization of superconformal invariance in two dimensional quantum field theory. The Hilbert space of a superconformal theory splits into two sectors; one a representation of the Neveu-Schwarz algebra, the other of the Ramond algebra. We introduce the spin fields which intertwine the two sectors and correspond to the irreducible representations of the Ramond algebra. We give the determinant formula for the Ramond algebra and the discrete list of possible unitary representations. We have previously noted that the Z2 even sector of the tricritical Ising model is a representation of the Neveu-Schwarz algebra. Here we complete the picture by showing that the Z2 odd sector forms a representation of the Ramond algebra. This system is the first experimentally realizable supersymmetric field theory.}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{number}{1}
+      \field{title}{Superconformal invariance in two dimensions and the tricritical Ising model}
+      \field{volume}{151}
+      \field{year}{1985}
+      \field{pages}{37\bibrangedash 43}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0370-2693(85)90819-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0370269385908196
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0370269385908196
+      \endverb
+    \endentry
+    \entry{friedan1984}{article}{}
+      \name{author}{3}{}{%
+        {{hash=67ebcac264e054a10e8761c83c63b7fc}{%
+           family={Friedan},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9648453aaab2909a966fc9d40a1c4fbc}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Zongan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c4a83a561117ef4c7acb1a0353ee12a5}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{fullhash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{bibnamehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{authorbibnamehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{authornamehash}{dd1d6312994ea1da79268812b6d4ce01}
+      \strng{authorfullhash}{dd1d6312994ea1da79268812b6d4ce01}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{18}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{4}
+      \field{title}{Conformal Invariance, Unitarity, and Critical Exponents in Two Dimensions}
+      \field{volume}{52}
+      \field{year}{1984}
+      \field{pages}{1575\bibrangedash 1578}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.52.1575
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.52.1575
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.52.1575
+      \endverb
+    \endentry
+    \entry{yang1951}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e70bb8eafeb170e9ab03b692c211b42e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={C.\bibnamedelimi N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e70bb8eafeb170e9ab03b692c211b42e}
+      \strng{fullhash}{e70bb8eafeb170e9ab03b692c211b42e}
+      \strng{bibnamehash}{e70bb8eafeb170e9ab03b692c211b42e}
+      \strng{authorbibnamehash}{e70bb8eafeb170e9ab03b692c211b42e}
+      \strng{authornamehash}{e70bb8eafeb170e9ab03b692c211b42e}
+      \strng{authorfullhash}{e70bb8eafeb170e9ab03b692c211b42e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{3}
+      \field{title}{The Spontaneous Magnetization of a Two-Dimensional Ising Model}
+      \field{volume}{85}
+      \field{year}{1952}
+      \field{pages}{808\bibrangedash 816}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1103/PhysRev.85.808
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.85.808
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.85.808
+      \endverb
+    \endentry
+    \entry{pfeuty1970}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6ea25921b547574dab57c4cc9eff8d9d}{%
+           family={Pfeuty},
+           familyi={P\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6ea25921b547574dab57c4cc9eff8d9d}
+      \strng{fullhash}{6ea25921b547574dab57c4cc9eff8d9d}
+      \strng{bibnamehash}{6ea25921b547574dab57c4cc9eff8d9d}
+      \strng{authorbibnamehash}{6ea25921b547574dab57c4cc9eff8d9d}
+      \strng{authornamehash}{6ea25921b547574dab57c4cc9eff8d9d}
+      \strng{authorfullhash}{6ea25921b547574dab57c4cc9eff8d9d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ANNALS of Physics}
+      \field{number}{1}
+      \field{title}{The one-dimensional Ising model with a transverse field}
+      \field{volume}{57}
+      \field{year}{1970}
+      \field{pages}{79\bibrangedash 90}
+      \range{pages}{12}
+    \endentry
+    \entry{affleck1986}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a947b64dcc23ff78f9e6ce799bd832bd}{%
+           family={Affleck},
+           familyi={A\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{fullhash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{bibnamehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{authorbibnamehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{authornamehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{authorfullhash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{7}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{2}
+      \field{title}{Universal term in the free energy at a critical point and the conformal anomaly}
+      \field{volume}{56}
+      \field{year}{1986}
+      \field{pages}{746\bibrangedash 748}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.56.746
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.56.746
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.56.746
+      \endverb
+    \endentry
+    \entry{blote1986}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c732bd9af4570f16e8a6d362bf9abbc4}{%
+           family={Blöte},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi W.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7b47a8e862c7f8f8def92c33bc992067}{%
+           family={Cardy},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8da4516d16ad7633b2a7b4989957e471}{%
+           family={Nightingale},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{919512cdaa06f26aef62abfb3cbfd76b}
+      \strng{fullhash}{919512cdaa06f26aef62abfb3cbfd76b}
+      \strng{bibnamehash}{919512cdaa06f26aef62abfb3cbfd76b}
+      \strng{authorbibnamehash}{919512cdaa06f26aef62abfb3cbfd76b}
+      \strng{authornamehash}{919512cdaa06f26aef62abfb3cbfd76b}
+      \strng{authorfullhash}{919512cdaa06f26aef62abfb3cbfd76b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{7}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{2}
+      \field{title}{Conformal invariance, the central charge, and universal finite-size amplitudes at criticality}
+      \field{volume}{56}
+      \field{year}{1986}
+      \field{pages}{742\bibrangedash 745}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.56.742
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.56.742
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.56.742
+      \endverb
+    \endentry
+    \entry{lassig1991}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9e4b72e882dada7e4185648afecd40c2}{%
+           family={Lässig},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3b4409dc436b279ee3a4199049954446}{%
+           family={Mussardo},
+           familyi={M\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7b47a8e862c7f8f8def92c33bc992067}{%
+           family={Cardy},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4348b91d2f5c96eb9a1f5a07032864cf}
+      \strng{fullhash}{4348b91d2f5c96eb9a1f5a07032864cf}
+      \strng{bibnamehash}{4348b91d2f5c96eb9a1f5a07032864cf}
+      \strng{authorbibnamehash}{4348b91d2f5c96eb9a1f5a07032864cf}
+      \strng{authornamehash}{4348b91d2f5c96eb9a1f5a07032864cf}
+      \strng{authorfullhash}{4348b91d2f5c96eb9a1f5a07032864cf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the scaling region spanned by all four relevant perturbations of the tricritical Ising model in two dimensions. We analyze the spectrum of the (1 + 1)-dimensional off-critical hamiltonian on a truncated Hilbert space, a method recently proposed by Yurov and AL Zamolodchikov. I the phase coexistence regions the massive excitations are kink states. On the temperature-driven two-phase coexistence line, they form bound states, which we analyze for periodic as well as for twisted boundary conditions. We find a new asymmetric two-phase region driven by the subleading magnetic field. There are some indications of massless states along the crossover line to the Ising model. The effects of off-critical integrability on the spectra are also observed and discussed.}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{number}{3}
+      \field{title}{The scaling region of the tricritical Ising model in two dimensions}
+      \field{volume}{348}
+      \field{year}{1991}
+      \field{pages}{591\bibrangedash 618}
+      \range{pages}{28}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(91)90206-D
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/055032139190206D
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/055032139190206D
+      \endverb
+    \endentry
+    \entry{cardy1986}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7b47a8e862c7f8f8def92c33bc992067}{%
+           family={Cardy},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{fullhash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{bibnamehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{authorbibnamehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{authornamehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{authorfullhash}{7b47a8e862c7f8f8def92c33bc992067}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The operator content of unitary conformally invariant theories with c<1 is further analysed by deriving the spectrum of the transfer matrix for finite width strips and a variety of boundary conditions: antiperiodic, cyclic, twisted, free, fixed and a mixture of the last two. Complete results are obtained for the Ising model and for the three-state Potts model, as illustrations of the method. They demonstrate how the internal symmetries of these theories are tied in with their conformal properties.}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{number}{2}
+      \field{title}{Effect of boundary conditions on the operator content of two-dimensional conformally invariant theories}
+      \field{volume}{275}
+      \field{year}{1986}
+      \field{pages}{200\bibrangedash 218}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(86)90596-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321386905961
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321386905961
+      \endverb
+    \endentry
+    \entry{cardy1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7b47a8e862c7f8f8def92c33bc992067}{%
+           family={Cardy},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{fullhash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{bibnamehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{authorbibnamehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{authornamehash}{7b47a8e862c7f8f8def92c33bc992067}
+      \strng{authorfullhash}{7b47a8e862c7f8f8def92c33bc992067}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Boundary operators is conformal field theory are considered as arising from the juxtaposition of different types of boundary conditions. From this point of view, the operator content of the theory in an annulus may be related to the fusion rules. By considering the partition function in such a geometry, we give a simple derivation of the Verlinde formula.}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{number}{3}
+      \field{title}{Boundary conditions, fusion rules and the Verlinde formula}
+      \field{volume}{324}
+      \field{year}{1989}
+      \field{pages}{581\bibrangedash 596}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(89)90521-X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/055032138990521X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/055032138990521X
+      \endverb
+    \endentry
+    \entry{affleck2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a947b64dcc23ff78f9e6ce799bd832bd}{%
+           family={Affleck},
+           familyi={A\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{fullhash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{bibnamehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{authorbibnamehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{authornamehash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \strng{authorfullhash}{a947b64dcc23ff78f9e6ce799bd832bd}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using previous results from boundary conformal field theory and integrability, a phase diagram is derived for the two-dimensional Ising model at its bulk tri-critical point as a function of boundary magnetic field and boundary spin-coupling constant. A boundary tri-critical point separates phases where the spins on the boundary are ordered or disordered. In the latter range of coupling constant, there is a non-zero critical field where the magnetization is singular. In the former range, as the temperature is lowered, the boundary undergoes a first-order transition while the bulk simultaneously undergoes a second-order transition.}
+      \field{journaltitle}{Journal of Physics A: Mathematical and General}
+      \field{month}{9}
+      \field{number}{37}
+      \field{title}{Edge critical behaviour of the two-dimensional tri-critical Ising model}
+      \field{volume}{33}
+      \field{year}{2000}
+      \field{pages}{6473\bibrangedash 6479}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1088/0305-4470/33/37/301
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/0305-4470/33/37/301
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/0305-4470/33/37/301
+      \endverb
+    \endentry
+    \entry{belavin1984}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a3bea26b972c0bcb0f3c10ba05d542d1}{%
+           family={Belavin},
+           familyi={B\bibinitperiod},
+           given={A.A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=947e764c6f40f4f8b1390f99067514f1}{%
+           family={Polyakov},
+           familyi={P\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=443afdd91bfde2609b826dba175cdc68}{%
+           family={Zamolodchikov},
+           familyi={Z\bibinitperiod},
+           given={A.B.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e822c844f32cdfc0cd41c535f86c838a}
+      \strng{fullhash}{e822c844f32cdfc0cd41c535f86c838a}
+      \strng{bibnamehash}{e822c844f32cdfc0cd41c535f86c838a}
+      \strng{authorbibnamehash}{e822c844f32cdfc0cd41c535f86c838a}
+      \strng{authornamehash}{e822c844f32cdfc0cd41c535f86c838a}
+      \strng{authorfullhash}{e822c844f32cdfc0cd41c535f86c838a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an investigation of the massless, two-dimentional, interacting field theories. Their basic property is their invariance under an infinite-dimensional group of conformal (analytic) transformations. It is shown that the local fields forming the operator algebra can be classified according to the irreducible representations of Virasoro algebra, and that the correlation functions are built up of the “conformal blocks” which are completely determined by the conformal invariance. Exactly solvable conformal theories associated with the degenerate representations are analyzed. In these theories the anomalous dimensions are known exactly and the correlation functions satisfy the systems of linear differential equations.}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{number}{2}
+      \field{title}{Infinite conformal symmetry in two-dimensional quantum field theory}
+      \field{volume}{241}
+      \field{year}{1984}
+      \field{pages}{333\bibrangedash 380}
+      \range{pages}{48}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(84)90052-X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/055032138490052X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/055032138490052X
+      \endverb
+    \endentry
+    \entry{qiu1986}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9648453aaab2909a966fc9d40a1c4fbc}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Zongan},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{9648453aaab2909a966fc9d40a1c4fbc}
+      \strng{fullhash}{9648453aaab2909a966fc9d40a1c4fbc}
+      \strng{bibnamehash}{9648453aaab2909a966fc9d40a1c4fbc}
+      \strng{authorbibnamehash}{9648453aaab2909a966fc9d40a1c4fbc}
+      \strng{authornamehash}{9648453aaab2909a966fc9d40a1c4fbc}
+      \strng{authorfullhash}{9648453aaab2909a966fc9d40a1c4fbc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We discuss the general properties of supersymmetrical two-dimensional critical phenomena, i.e. superconformal field theory. We first review the consequences of ordinary conformal invariance. We then discuss general features of superconformal invariance and the superdifferential equation that correlation functions in certain theories obey. We give the explicit form of this differential equation in the even sector of the tricritical Ising model at its tricritical point. We find the solution of this equation. The physical realizations of this model, e.g. helium adsorbed on krypton-plated graphite, are the first observable supersymmetric field theories in nature.}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{title}{Supersymmetry, two-dimensional critical phenomena and the tricritical Ising model}
+      \field{volume}{270}
+      \field{year}{1986}
+      \field{pages}{205\bibrangedash 234}
+      \range{pages}{30}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(86)90553-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321386905535
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321386905535
+      \endverb
+    \endentry
+    \entry{milsted2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fdfe704c417606a1174828d12fdb1eba}{%
+           family={Milsted},
+           familyi={M\bibinitperiod},
+           given={Ashley},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d3f8c6663f1fa635f1b95e9d2da51116}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Guifre},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5abc8d5c048389a93164f299f885b95a}
+      \strng{fullhash}{5abc8d5c048389a93164f299f885b95a}
+      \strng{bibnamehash}{5abc8d5c048389a93164f299f885b95a}
+      \strng{authorbibnamehash}{5abc8d5c048389a93164f299f885b95a}
+      \strng{authornamehash}{5abc8d5c048389a93164f299f885b95a}
+      \strng{authorfullhash}{5abc8d5c048389a93164f299f885b95a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{12}
+      \field{title}{Extraction of conformal data in critical quantum spin chains using the Koo-Saleur formula}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{245105}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.96.245105
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.96.245105
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.96.245105
+      \endverb
+    \endentry
+    \entry{rahmani2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=17b45960180635487a88f8d254e264ff}{%
+           family={Rahmani},
+           familyi={R\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6c74348e1986feafeee52052c5d8e420}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=0916e5437e4115ee7f13a6f8ae5ef604}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a947b64dcc23ff78f9e6ce799bd832bd}{%
+           family={Affleck},
+           familyi={A\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c25e608309cdd90be6cf167f76bba823}
+      \strng{fullhash}{85aa99c31c960d0d0e0c93e2ebc05f22}
+      \strng{bibnamehash}{c25e608309cdd90be6cf167f76bba823}
+      \strng{authorbibnamehash}{c25e608309cdd90be6cf167f76bba823}
+      \strng{authornamehash}{c25e608309cdd90be6cf167f76bba823}
+      \strng{authorfullhash}{85aa99c31c960d0d0e0c93e2ebc05f22}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Emergent Supersymmetry from Strongly Interacting Majorana Zero Modes}
+      \field{volume}{115}
+      \field{year}{2015}
+      \field{pages}{166401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.115.166401
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.115.166401
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.115.166401
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
