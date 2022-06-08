@@ -44,15 +44,15 @@
 \usepackage[
     top=1.5cm,
     bottom=1.5cm,
-    left=1.5cm,
-    right=1.5cm
+    left=2cm,
+    right=2cm
     ]{geometry}
 \usepackage[
     colorlinks,
     bookmarks=false,
     linkcolor=RedViolet,
-    urlcolor=TealBlue,
-    citecolor=Peach
+    urlcolor=Peach,
+    citecolor=TealBlue
     ]{hyperref}
 \usepackage[
     backend=biber,
@@ -66,27 +66,10 @@
     noabbrev
     ]{cleveref}
 
-% \usepackage[T1]{fontenc}
-
-% \usepackage{tgpagella}
 
 \usepackage{newpxtext}
 \usepackage[defaultsans]{lato}
 \linespread{1.02}
-
-% \usepackage{lato}
-% \renewcommand{\sfdefault}{lato}
-% \usepackage[default]{lato}
-
-% \usepackage{fontspec}
-% \setsansfont{Arial}
-
-% \usepackage{palatino}
-% \usepackage{lato}
-% \renewcommand{\sfdefault}{lato}
-
-% \usepackage[defaultsans]{lato}
-% \usepackage[defaultserif]{mathpazo}
 
 %-------------------------------
 %           COMMANDS
@@ -122,4 +105,7 @@
 \renewbibmacro{in:}{}
 \AtEveryBibitem{%
   \clearfield{note}
-  \clearfield{pages}}
+  \clearfield{pages}
+  \clearfield{issue}
+  \clearfield{number}
+  \clearfield{month}}

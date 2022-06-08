@@ -21,13 +21,13 @@ class MPS:
 		if self.fm=="up":
 			self.A = [np.array([1, 0]).reshape(1, 2, 1) for i in range(self.N)]
 			self.B = [np.array([1, 0]).reshape(1, 2, 1) for i in range(self.N)]
-		if self.fm=="+":
+		elif self.fm=="+":
 			self.A = [1/np.sqrt(2)*np.array([1, 1]).reshape(1, 2, 1) for i in range(self.N)]
 			self.B = [1/np.sqrt(2)*np.array([1, 1]).reshape(1, 2, 1) for i in range(self.N)]
 		elif self.fm=="down":
 			self.A = [np.array([0, 1]).reshape(1, 2, 1) for i in range(self.N)]
 			self.B = [np.array([0, 1]).reshape(1, 2, 1) for i in range(self.N)]
-		if self.fm=="-":
+		elif self.fm=="-":
 			self.A = [1/np.sqrt(2)*np.array([1, -1]).reshape(1, 2, 1) for i in range(self.N)]
 			self.B = [1/np.sqrt(2)*np.array([1, -1]).reshape(1, 2, 1) for i in range(self.N)]
 		elif self.fm=="random":

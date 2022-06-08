@@ -1,2 +1,7 @@
 % \clearpage
 \section{Introduction}
+
+	The Tricritical Ising (TCI) model is the second simplest unitary 2D conformal field theory after the Ising model \cite{belavin1984, francesco1997, friedan1984, cardy1986}. From this CFT emerges supersymmetry, that survives in the scaling limit. The motivation of \cite{obrien2018} was to find a model that exhibits supersymmetry on the lattice for the Tricritical Ising model, expressed in terms of Majorana fermions. They proposed the phase diagram of the model they introduced, and the goal here will be to try to recover it with numerical computations.
+
+	To this end, the Density Matrix Renormalization Group (DMRG) will be used as it is particularly suited for 1D spin chains. Everything will be coded in python language, from scratch\footnote{Everything can be found \href{https://github.com/anthony-rey/DMRG}{here}.}, following closely \cite{schollwoeck2011}. Open boundary conditions will first be used, but the introduction of periodic boundary condition will turn out to be necessary.
+

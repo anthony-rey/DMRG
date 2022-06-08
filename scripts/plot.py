@@ -41,11 +41,11 @@ saving = 1
 # simul = "transition"
 # simul = "through"
 # simul = "spin"
-# simul = "conformal"
+simul = "conformal"
 # simul = "pinning"
 # simul = "edge"
 # simul = "ratios"
-simul = "degeneracy"
+# simul = "degeneracy"
 
 # simul = "exponent"
 
@@ -701,11 +701,11 @@ if simul=="conformal":
 	# confDim = 0
 
 	# TFI id
-	q = [2, 3, 4, 5, 6]
-	mul = [1, 1, 2, 2, 3]
-	vCFT = 1/2
-	scale = 1/48
-	confDim = 0
+	# q = [2, 3, 4, 5, 6]
+	# mul = [1, 1, 2, 2, 3]
+	# vCFT = 1/2
+	# scale = 1/48
+	# confDim = 0
 
 	# TFI epsilon
 	# q = [1, 2, 3, 4, 5, 6]
@@ -720,16 +720,112 @@ if simul=="conformal":
 	# vCFT = 1/2
 	# scale = 1/48
 	# confDim = 1/16
+
+	# TCI -+
+	# qi = [1, 3, 4, 5]
+	# muli = [1, 1, 1, 2]
+	# qe = [3/2, 5/2, 7/2]
+	# mule = [1, 1, 2]
+	# vCFT = 1
+	# scale = 7/240
+	# confDim = 0
+
+	# TCI --
+	# q = [2, 3, 4, 5, 6]
+	# mul = [1, 1, 2, 2, 3]
+	# vCFT = 7/10
+	# scale = 7/240
+	# confDim = 0
+
+	# TCI ff
+	q = [1, 2, 3, 4]
+	mul = [1, 1, 2, 3]
+	vCFT = 7/10
+	scale = 7/240
+	confDim = 0
 	# ---
 
-	E0 = []
+	# E0 = []
+	# N = []
+	# fig, ax = plt.subplots(figsize=(6, 5))
+	
+	# filename = []
+	# for file in sorted(os.scandir(dataFolder + f"{simul}/"), key=lambda e: e.name):
+	# 	filename.append(file.name)	
+
+	# for file in filename:
+		
+	# 	expression = f"(?:L=)(?P<L>[0-9e\.-]+)(?:_chi=)(?P<chi>[0-9e\.-]+)(?:_J=)(?P<J>[0-9e\.-]+)(?:_h=)(?P<h>[0-9e\.-]+)(?:_i=)(?P<lambdaI>[0-9e\.-]+)(?:_3=)(?P<lamba3>[0-9e\.-]+)(?:_c=)(?P<lambdac>[0-9e\.-]+)(?:\.dat)"
+	# 	m = re.match(expression, file)
+	# 	d = m.groupdict()
+
+	# 	for key in d.keys():
+	# 		d[key] = float(d[key])
+
+	# 	E =  np.loadtxt(dataFolder + f"{simul}/" + file)
+	# 	L, chi, J, h, lambdaI, lambda3, lambdaC = d.values()
+
+	# 	E0.append(min(E[:, 0]))
+	# 	N.append(L)
+
+	# E0 = np.array(E0).reshape(len(E0))
+	# N = np.array(N)
+
+	# x = np.linspace(min(1/N**2), max(1/N**2), 10)
+
+	# def f(n, e0, e1, v):
+	# 	return e0*n + e1 - np.pi*v/n * (-scale + confDim)
+
+	# popt, pcov = curve_fit(f, N, E0)
+	# perr = np.sqrt(np.diag(pcov))
+
+	# v = abs(popt[2])
+	# vErr = perr[2]
+
+	# y = (E0-popt[1])/N - popt[0]
+
+	# def g(inv2, a, b):
+	# 	return a*inv2 + b
+	
+	# popt, pcov = curve_fit(g, 1/N**2, y)
+	# perr = np.sqrt(np.diag(pcov))
+
+	# mag = magnitude(popt[1])
+	# const = popt[1]*10**(-mag)
+	# consterr = perr[1]*10**(-mag)
+
+	# label=fr"$\frac{{E_0-\varepsilon_1}}{{L}} - \varepsilon_0$" + "\n" + fr"$= \frac{{\pi({v:.4f} \pm {vErr:0.4f})}}{{48}}\frac{{1}}{{L^2}}$"+ fr"$+ ({const:.0f} \pm {consterr:.0f})\cdot 10^{{{mag}}}$"
+
+	# ax.scatter(1/N**2, y, marker='x', color=colors[0])
+	# ax.plot(x, g(x, *popt), linestyle=':', color=colors[1], label=label)
+
+	# plt.xlabel(r"$\frac{1}{L^2}$")
+	# plt.ylabel(r"$\frac{E_0-\varepsilon_1}{L} - \varepsilon_0$")
+	# ax.minorticks_on()
+	# ax.grid(which='minor', linewidth=0.2)
+	# ax.grid(which='major', linewidth=0.6)
+	# # ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.01), borderaxespad=0)
+	# # ax.legend(loc="upper left")
+	# ax.legend(loc="lower left")
+
+	# plt.draw()
+	
+	# if saving:
+	# 	fig.savefig(graphFolder + f"{simul}/gs_chi={chi}_J={J}_h={h}_i={lambdaI}_3={lambda3}_c={lambdaC}" + ".png")
+	
+	# ----
+	# k = len(E[0, :])
+	k = 10
+	# ----
+
+	Es = [[] for i in range(k)]
 	N = []
 	fig, ax = plt.subplots(figsize=(6, 5))
 	
 	filename = []
 	for file in sorted(os.scandir(dataFolder + f"{simul}/"), key=lambda e: e.name):
-		filename.append(file.name)	
-
+		filename.append(file.name)
+	
 	for file in filename:
 		
 		expression = f"(?:L=)(?P<L>[0-9e\.-]+)(?:_chi=)(?P<chi>[0-9e\.-]+)(?:_J=)(?P<J>[0-9e\.-]+)(?:_h=)(?P<h>[0-9e\.-]+)(?:_i=)(?P<lambdaI>[0-9e\.-]+)(?:_3=)(?P<lamba3>[0-9e\.-]+)(?:_c=)(?P<lambdac>[0-9e\.-]+)(?:\.dat)"
@@ -742,116 +838,44 @@ if simul=="conformal":
 		E =  np.loadtxt(dataFolder + f"{simul}/" + file)
 		L, chi, J, h, lambdaI, lambda3, lambdaC = d.values()
 
-		E0.append(min(E[:, 0]))
+		for i in range(k):
+			Es[i].append(min(E[:, i])/4)
 		N.append(L)
 
-	E0 = np.array(E0).reshape(len(E0))
+	Es = np.array(Es).reshape(k, len(filename))
 	N = np.array(N)
 
-	x = np.linspace(min(1/N**2), max(1/N**2), 10)
+	ax.set_xlim(0, max(1/N)+0.001)
+	# ax.set_ylim(0, max(qi)+1)
 
-	def f(n, e0, e1, v):
-		return e0*n + e1 - np.pi*v/n * (-scale + confDim)
+	n = np.zeros((k-1, len(filename)))
+	for i in range(k-1):
+		n[i, :] = N*(Es[i+1, :]-Es[0, :])/(np.pi*vCFT)
 
-	popt, pcov = curve_fit(f, N, E0)
-	perr = np.sqrt(np.diag(pcov))
+	# for i in range(len(qi)):
+	# 	ax.axhline(qi[i], color=colors[0], lw=1)
+	# 	plt.annotate(f"{muli[i]}", xy=(0.01, qi[i]+0.05), color=colors[0], fontsize=10, xycoords=('axes fraction', 'data'))
+	# for i in range(len(qe)):
+	# 	ax.axhline(qe[i], color=colors[1], lw=1)
+	# 	plt.annotate(f"{mule[i]}", xy=(0.01, qe[i]+0.05), color=colors[1], fontsize=10, xycoords=('axes fraction', 'data'))
 
-	v = abs(popt[2])
-	vErr = perr[2]
+	for i in range(len(q)):
+		ax.axhline(q[i], color=colors[2], lw=1)
+		plt.annotate(f"{mul[i]}", xy=(0.01, q[i]+0.05), color=colors[2], fontsize=10, xycoords=('axes fraction', 'data'))
 
-	y = (E0-popt[1])/N - popt[0]
+	for i in range(k-1):
+		ax.scatter(1/N, n[i, :], marker='o', color='k', s=10)
 
-	def g(inv2, a, b):
-		return a*inv2 + b
-	
-	popt, pcov = curve_fit(g, 1/N**2, y)
-	perr = np.sqrt(np.diag(pcov))
-
-	mag = magnitude(popt[1])
-	const = popt[1]*10**(-mag)
-	consterr = perr[1]*10**(-mag)
-
-	label=fr"$\frac{{E_0-\varepsilon_1}}{{L}} - \varepsilon_0$" + "\n" + fr"$= \frac{{\pi({v:.4f} \pm {vErr:0.4f})}}{{48}}\frac{{1}}{{L^2}}$"+ fr"$+ ({const:.0f} \pm {consterr:.0f})\cdot 10^{{{mag}}}$"
-
-	ax.scatter(1/N**2, y, marker='x', color=colors[0])
-	ax.plot(x, g(x, *popt), linestyle=':', color=colors[1], label=label)
-
-	plt.xlabel(r"$\frac{1}{L^2}$")
-	plt.ylabel(r"$\frac{E_0-\varepsilon_1}{L} - \varepsilon_0$")
+	plt.xlabel(r"$\frac{1}{L}$")
+	plt.ylabel(r"$\frac{E_n - E_0}{\pi v} L$")
 	ax.minorticks_on()
 	ax.grid(which='minor', linewidth=0.2)
 	ax.grid(which='major', linewidth=0.6)
-	# ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.01), borderaxespad=0)
-	# ax.legend(loc="upper left")
-	ax.legend(loc="lower left")
 
 	plt.draw()
 	
 	if saving:
-		fig.savefig(graphFolder + f"{simul}/gs_chi={chi}_J={J}_h={h}_i={lambdaI}_3={lambda3}_c={lambdaC}" + ".png")
-	
-# 	# ----
-# 	k = len(E[0, :])
-# 	# ----
-
-# 	Es = [[] for i in range(k)]
-# 	N = []
-# 	fig, ax = plt.subplots(figsize=(6, 5))
-	
-# 	filename = []
-# 	for file in sorted(os.scandir(dataFolder + f"{simul}/"), key=lambda e: e.name):
-# 		filename.append(file.name)
-	
-# 	for file in filename:
-		
-# 		expression = f"(?:L=)(?P<L>[0-9e\.-]+)(?:_chi=)(?P<chi>[0-9e\.-]+)(?:_J=)(?P<J>[0-9e\.-]+)(?:_h=)(?P<h>[0-9e\.-]+)(?:_i=)(?P<lambdaI>[0-9e\.-]+)(?:_3=)(?P<lamba3>[0-9e\.-]+)(?:_c=)(?P<lambdac>[0-9e\.-]+)(?:\.dat)"
-# 		m = re.match(expression, file)
-# 		d = m.groupdict()
-
-# 		for key in d.keys():
-# 			d[key] = float(d[key])
-
-# 		E =  np.loadtxt(dataFolder + f"{simul}/" + file)
-# 		L, chi, J, h, lambdaI, lambda3, lambdaC = d.values()
-
-# 		for i in range(k):
-# 			Es[i].append(min(E[:, i]))
-# 		N.append(L)
-
-# 	Es = np.array(Es).reshape(k, len(filename))
-# 	N = np.array(N)
-
-# 	ax.set_xlim(0, max(1/N)+0.001)
-# 	# ax.set_ylim(0, max(qi)+1)
-
-# 	n = np.zeros((k-1, len(filename)))
-# 	for i in range(k-1):
-# 		n[i, :] = N*(Es[i+1, :]-Es[0, :])/(np.pi*vCFT)
-
-# 	for i in range(len(qi)):
-# 		ax.axhline(qi[i], color=colors[0], lw=1)
-# 		plt.annotate(f"{muli[i]}", xy=(0.01, qi[i]+0.05), color=colors[0], fontsize=10, xycoords=('axes fraction', 'data'))
-# 	for i in range(len(qe)):
-# 		ax.axhline(qe[i], color=colors[1], lw=1)
-# 		plt.annotate(f"{mule[i]}", xy=(0.01, qe[i]+0.05), color=colors[1], fontsize=10, xycoords=('axes fraction', 'data'))
-
-# 	# for i in range(len(q)):
-# 	# 	ax.axhline(q[i], color=colors[2], lw=1)
-# 	# 	plt.annotate(f"{mul[i]}", xy=(0.01, q[i]+0.05), color=colors[2], fontsize=10, xycoords=('axes fraction', 'data'))
-
-# 	for i in range(k-1):
-# 		ax.scatter(1/N, n[i, :], marker='o', color='k', s=10)
-
-# 	plt.xlabel(r"$\frac{1}{L}$")
-# 	plt.ylabel(r"$\frac{E_n - E_0}{\pi v} L$")
-# 	ax.minorticks_on()
-# 	ax.grid(which='minor', linewidth=0.2)
-# 	ax.grid(which='major', linewidth=0.6)
-
-# 	plt.draw()
-	
-# 	if saving:
-# 		fig.savefig(graphFolder + f"{simul}/towers_chi={chi}_J={J}_h={h}_i={lambdaI}_3={lambda3}_c={lambdaC}" + ".png")
+		fig.savefig(graphFolder + f"{simul}/towers_chi={chi}_J={J}_h={h}_i={lambdaI}_3={lambda3}_c={lambdaC}" + ".png")
 
 	plt.show()
 

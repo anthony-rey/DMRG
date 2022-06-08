@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.15)  7 JUN 2022 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.15)  8 JUN 2022 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1105,14 +1105,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
 * v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=528.93675pt
+* \textwidth=500.484pt
 * \textheight=709.61174pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1175,53 +1175,94 @@ Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
 \c@mv@tabular=\count477
 \c@mv@boldtabular=\count478
-
-(./chapters/introduction.tex
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
-LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
+(Font)              scaled to size 24.88pt on input line 23.
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
-ne 2.
+ne 23.
 
 (/usr/share/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
-) (./chapters/models.tex
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 23.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
-LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
+(Font)              scaled to size 14.4pt on input line 30.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 30.
+LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 32.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+(Font)              scaled to size 12.0pt on input line 32.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 35.
+<../images/logo.png, id=4, 2569.6pt x 747.79375pt>
+File: ../images/logo.png Graphic file (type png)
+<use ../images/logo.png>
+Package pdftex.def Info: ../images/logo.png  used on input line 39.
+(pdftex.def)             Requested size: 77.08467pt x 22.43283pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../images/logo.png>]
+LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 44.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 44.
+ (./main.toc
+LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+(./chapters/introduction.tex
+LaTeX Font Info:    Trying to load font information for T1+zplsups on input lin
+e 6.
+
+(/usr/share/texmf-dist/tex/latex/newpx/t1zplsups.fd
+File: t1zplsups.fd 2015/01/17 v1.0
 )
+LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
+(Font)              scaled to size 10.95pt on input line 6.
+LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 6.
+LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
+(Font)              scaled to size 9.0pt on input line 6.
+) (./chapters/models.tex
+LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 9
 .
 
 (/usr/share/texmf-dist/tex/latex/bbold/Ubbold.fd)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 	\subsection{O'Brien and Fendley}
+                                       [1]
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 23.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]) (./chapters/m
-ethod.tex [5]
+ [2] [3] [4] [5])
+(./chapters/method.tex
 LaTeX Font Info:    Trying to load font information for TS1+zplTLF on input lin
 e 8.
-
-(/usr/share/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+ (/usr/share/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zplTLF
 )
 LaTeX Font Info:    Font shape `TS1/zplTLF/m/n' will be
@@ -1236,25 +1277,27 @@ LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
 (Font)              scaled to size 10.95pt on input line 8.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 15.
- [6]
-LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 65.
+ [6] [7]
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 65.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7] [8]
-<../images/pbcmps.png, id=174, 1255.69125pt x 283.0575pt>
+ [8]
+<../images/pbcmps.png, id=208, 1255.69125pt x 283.0575pt>
 File: ../images/pbcmps.png Graphic file (type png)
 <use ../images/pbcmps.png>
 Package pdftex.def Info: ../images/pbcmps.png  used on input line 111.
 (pdftex.def)             Requested size: 502.26761pt x 113.22098pt.
- [9 <../images/pbcmps.png>] [10] [11])
-(./chapters/results_discussion.tex [12]
+
+Overfull \hbox (1.78362pt too wide) in paragraph at lines 111--112
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] [10 <../images/pbcmps.png>] [11]) (./chapters/results_discussion.tex
+[12]
 <../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.p
-ng, id=246, 423.5022pt x 361.63908pt>
+ng, id=274, 423.5022pt x 361.63908pt>
 File: ../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=
 0.0.png Graphic file (type png)
 <use ../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
@@ -1262,10 +1305,8 @@ File: ../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=
 Package pdftex.def Info: ../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h
 =1.0_i=1.0_3=0.0_c=0.0.png  used on input line 16.
 (pdftex.def)             Requested size: 279.5123pt x 238.68253pt.
-LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 16.
 <../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png, 
-id=247, 405.00108pt x 363.37357pt>
+id=275, 405.00108pt x 363.37357pt>
 File: ../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.
 png Graphic file (type png)
 <use ../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.p
@@ -1274,12 +1315,15 @@ Package pdftex.def Info: ../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0
 _i=1.0_3=0.0_c=0.0.png  used on input line 17.
 (pdftex.def)             Requested size: 267.30153pt x 239.82729pt.
 
-Overfull \hbox (9.781pt too wide) in paragraph at lines 15--18
+Overfull \hbox (24.00739pt too wide) in paragraph at lines 15--18
 []  [][] [][] 
  []
 
+[13 <../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
+.0.png> <../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
+.0.png>]
 <../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png
-, id=254, 398.35223pt x 363.37357pt>
+, id=297, 398.35223pt x 363.37357pt>
 File: ../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.
 0.png Graphic file (type png)
 <use ../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0
@@ -1288,7 +1332,7 @@ Package pdftex.def Info: ../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0
 _i=1.0_3=0.856_c=0.0.png  used on input line 26.
 (pdftex.def)             Requested size: 262.91328pt x 239.82729pt.
 <../graphs/entropies/ff/other_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png, id
-=255, 398.35223pt x 363.37357pt>
+=298, 398.35223pt x 363.37357pt>
 File: ../graphs/entropies/ff/other_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.pn
 g Graphic file (type png)
 <use ../graphs/entropies/ff/other_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png
@@ -1297,9 +1341,11 @@ Package pdftex.def Info: ../graphs/entropies/ff/other_chi=100.0_J=1.0_h=1.0_i=1
 .0_3=0.856_c=0.0.png  used on input line 27.
 (pdftex.def)             Requested size: 262.91328pt x 239.82729pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (12.3277pt too wide) in paragraph at lines 25--28
+[]  [][] [][] 
+ []
 
-<../graphs/phase/ff/chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png, id=265, 531.03996pt 
+<../graphs/phase/ff/chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png, id=308, 531.03996pt 
 x 332.73108pt>
 File: ../graphs/phase/ff/chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png Graphic file (ty
 pe png)
@@ -1310,12 +1356,10 @@ ng  used on input line 37.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <../graphs/entropies/ff/alone_L=100.0_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
-.0.png> <../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
-.0.png>] [14 <../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.
-856_c=0.0.png> <../graphs/entropies/ff/other_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.85
-6_c=0.0.png> <../graphs/phase/ff/chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png>]
-<../graphs/edge/L=30.0_chi=50.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png, id=292, 58
+[14 <../graphs/entropies/ff/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0
+.png> <../graphs/entropies/ff/other_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.p
+ng>]
+<../graphs/edge/L=30.0_chi=50.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png, id=324, 58
 3.36343pt x 329.84029pt>
 File: ../graphs/edge/L=30.0_chi=50.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png Graphi
 c file (type png)
@@ -1323,7 +1367,7 @@ c file (type png)
 Package pdftex.def Info: ../graphs/edge/L=30.0_chi=50.0_J=1.0_h=1.0_i=1.0_3=0.8
 56_c=0.0.png  used on input line 49.
 (pdftex.def)             Requested size: 385.02104pt x 217.69525pt.
-<../graphs/spin/--/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png, id=298, 396.3
+<../graphs/spin/--/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png, id=330, 396.3
 2867pt x 328.39488pt>
 File: ../graphs/spin/--/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png Graphic f
 ile (type png)
@@ -1331,7 +1375,7 @@ ile (type png)
 Package pdftex.def Info: ../graphs/spin/--/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_
 c=0.0.png  used on input line 58.
 (pdftex.def)             Requested size: 261.57773pt x 216.74129pt.
-<../graphs/spin/++/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png, id=299, 414.2
+<../graphs/spin/++/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png, id=331, 414.2
 5163pt x 329.26212pt>
 File: ../graphs/spin/++/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png Graphic f
 ile (type png)
@@ -1340,15 +1384,14 @@ Package pdftex.def Info: ../graphs/spin/++/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_
 c=0.0.png  used on input line 59.
 (pdftex.def)             Requested size: 273.4069pt x 217.31364pt.
 
-Overfull \hbox (7.25938pt too wide) in paragraph at lines 57--60
+Overfull \hbox (21.48576pt too wide) in paragraph at lines 57--60
 []  [][] [][] 
  []
 
-[15 <../graphs/edge/L=30.0_chi=50.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png> <../gr
-aphs/spin/--/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png> <../graphs/spin/++/
-100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png>]
+[15 <../graphs/phase/ff/chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png> <../graphs/edge/
+L=30.0_chi=50.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png>]
 <../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.p
-ng, id=314, 405.00108pt x 363.37357pt>
+ng, id=344, 405.00108pt x 363.37357pt>
 File: ../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=
 0.0.png Graphic file (type png)
 <use ../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
@@ -1357,7 +1400,7 @@ Package pdftex.def Info: ../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h
 =1.0_i=1.0_3=0.0_c=0.0.png  used on input line 68.
 (pdftex.def)             Requested size: 267.30153pt x 239.82729pt.
 <../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0
-.png, id=315, 398.35223pt x 363.37357pt>
+.png, id=345, 398.35223pt x 363.37357pt>
 File: ../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_
 c=0.0.png Graphic file (type png)
 <use ../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c
@@ -1366,12 +1409,15 @@ Package pdftex.def Info: ../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h
 =1.0_i=1.0_3=0.856_c=0.0.png  used on input line 69.
 (pdftex.def)             Requested size: 262.91328pt x 239.82729pt.
 
-Overfull \hbox (2.48956pt too wide) in paragraph at lines 67--70
+Overfull \hbox (16.71594pt too wide) in paragraph at lines 67--70
 []  [][] [][] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <../graphs/conformal/ff/energies_L=70.0_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.
-0.png, id=320, 478.13832pt x 330.12936pt>
+0.png, id=350, 478.13832pt x 330.12936pt>
 File: ../graphs/conformal/ff/energies_L=70.0_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0
 _c=0.0.png Graphic file (type png)
 <use ../graphs/conformal/ff/energies_L=70.0_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_
@@ -1382,7 +1428,7 @@ _h=0.25_i=0.5_3=0.0_c=0.0.png  used on input line 78.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../graphs/transition/ff/gap_L=50_chi=50.0_J=1.0_i=0.5_3=0.0_c=0.0.png, id=323,
+<../graphs/transition/ff/gap_L=50_chi=50.0_J=1.0_i=0.5_3=0.0_c=0.0.png, id=353,
  391.41432pt x 328.39488pt>
 File: ../graphs/transition/ff/gap_L=50_chi=50.0_J=1.0_i=0.5_3=0.0_c=0.0.png Gra
 phic file (type png)
@@ -1390,7 +1436,7 @@ phic file (type png)
 Package pdftex.def Info: ../graphs/transition/ff/gap_L=50_chi=50.0_J=1.0_i=0.5_
 3=0.0_c=0.0.png  used on input line 87.
 (pdftex.def)             Requested size: 258.33424pt x 216.74129pt.
-<../graphs/gaps/ff/gap_chi=200.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png, id=324, 408
+<../graphs/gaps/ff/gap_chi=200.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png, id=354, 408
 .75912pt x 363.37357pt>
 File: ../graphs/gaps/ff/gap_chi=200.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png Graphic
  file (type png)
@@ -1399,18 +1445,19 @@ Package pdftex.def Info: ../graphs/gaps/ff/gap_chi=200.0_J=1.0_h=1.0_i=1.0_3=0.
 0_c=0.0.png  used on input line 88.
 (pdftex.def)             Requested size: 269.78186pt x 239.82729pt.
 
+Overfull \hbox (14.61723pt too wide) in paragraph at lines 86--89
+[]  [][] [][] 
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0
-.0.png> <../graphs/entropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.8
-56_c=0.0.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <../graphs/conformal/ff/energies_L=70.0_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_
-c=0.0.png> <../graphs/transition/ff/gap_L=50_chi=50.0_J=1.0_i=0.5_3=0.0_c=0.0.p
-ng> <../graphs/gaps/ff/gap_chi=200.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png>]
-<../graphs/conformal/ff/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png, id=363
+[16 <../graphs/spin/--/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png> <../graph
+s/spin/++/100/L=30_chi=30.0_J=1.0_i=1.0_3=0.0_c=0.0.png>] [17 <../graphs/entrop
+ies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png> <../graphs/en
+tropies/--/100/calabrese_chi=100.0_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png> <../gra
+phs/conformal/ff/energies_L=70.0_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png>]
+<../graphs/conformal/ff/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png, id=390
 , 406.73557pt x 345.4506pt>
 File: ../graphs/conformal/ff/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png Gr
 aphic file (type png)
@@ -1419,7 +1466,7 @@ Package pdftex.def Info: ../graphs/conformal/ff/gs_chi=50.0_J=0.25_h=0.25_i=0.5
 _3=0.0_c=0.0.png  used on input line 117.
 (pdftex.def)             Requested size: 268.44629pt x 227.9981pt.
 <../graphs/conformal/100/--/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png, id
-=364, 406.73557pt x 345.4506pt>
+=391, 406.73557pt x 345.4506pt>
 File: ../graphs/conformal/100/--/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.pn
 g Graphic file (type png)
 <use ../graphs/conformal/100/--/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
@@ -1428,12 +1475,12 @@ Package pdftex.def Info: ../graphs/conformal/100/--/gs_chi=50.0_J=0.25_h=0.25_i
 =0.5_3=0.0_c=0.0.png  used on input line 118.
 (pdftex.def)             Requested size: 268.44629pt x 227.9981pt.
 
-Overfull \hbox (9.59825pt too wide) in paragraph at lines 117--119
+Overfull \hbox (38.05101pt too wide) in paragraph at lines 117--119
 [][] [][] 
  []
 
 <../graphs/conformal/100/+-/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png, id
-=365, 416.56429pt x 337.06728pt>
+=392, 416.56429pt x 337.06728pt>
 File: ../graphs/conformal/100/+-/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.pn
 g Graphic file (type png)
 <use ../graphs/conformal/100/+-/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
@@ -1442,7 +1489,7 @@ Package pdftex.def Info: ../graphs/conformal/100/+-/gs_chi=50.0_J=0.25_h=0.25_i
 =0.5_3=0.0_c=0.0.png  used on input line 123.
 (pdftex.def)             Requested size: 274.93327pt x 222.46507pt.
 <../graphs/conformal/100/f+/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png, id
-=366, 385.34364pt x 345.4506pt>
+=393, 385.34364pt x 345.4506pt>
 File: ../graphs/conformal/100/f+/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.pn
 g Graphic file (type png)
 <use ../graphs/conformal/100/f+/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
@@ -1451,15 +1498,17 @@ Package pdftex.def Info: ../graphs/conformal/100/f+/gs_chi=50.0_J=0.25_h=0.25_i
 =0.5_3=0.0_c=0.0.png  used on input line 124.
 (pdftex.def)             Requested size: 254.32759pt x 227.9981pt.
 
-Overfull \hbox (1.96654pt too wide) in paragraph at lines 123--125
+Overfull \hbox (30.4193pt too wide) in paragraph at lines 123--125
 [][] [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[18 <../graphs/transition/ff/gap_L=50_chi=50.0_J=1.0_i=0.5_3=0.0_c=0.0.png> <..
+/graphs/gaps/ff/gap_chi=200.0_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png>]
 <../graphs/conformal/ff/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png, id
-=379, 396.0396pt x 332.73108pt>
+=421, 396.0396pt x 332.73108pt>
 File: ../graphs/conformal/ff/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.pn
 g Graphic file (type png)
 <use ../graphs/conformal/ff/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
@@ -1468,7 +1517,7 @@ Package pdftex.def Info: ../graphs/conformal/ff/towers_chi=50.0_J=0.25_h=0.25_i
 =0.5_3=0.0_c=0.0.png  used on input line 137.
 (pdftex.def)             Requested size: 261.38693pt x 219.60318pt.
 <../graphs/conformal/100/--/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
-, id=380, 385.34364pt x 332.73108pt>
+, id=422, 385.34364pt x 332.73108pt>
 File: ../graphs/conformal/100/--/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.
 0.png Graphic file (type png)
 <use ../graphs/conformal/100/--/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0
@@ -1476,8 +1525,13 @@ File: ../graphs/conformal/100/--/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.
 Package pdftex.def Info: ../graphs/conformal/100/--/towers_chi=50.0_J=0.25_h=0.
 25_i=0.5_3=0.0_c=0.0.png  used on input line 138.
 (pdftex.def)             Requested size: 254.32759pt x 219.60318pt.
+
+Overfull \hbox (16.87296pt too wide) in paragraph at lines 137--139
+[][] [][] 
+ []
+
 <../graphs/conformal/100/+-/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
-, id=381, 385.34364pt x 332.73108pt>
+, id=423, 385.34364pt x 332.73108pt>
 File: ../graphs/conformal/100/+-/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.
 0.png Graphic file (type png)
 <use ../graphs/conformal/100/+-/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0
@@ -1486,7 +1540,7 @@ Package pdftex.def Info: ../graphs/conformal/100/+-/towers_chi=50.0_J=0.25_h=0.
 25_i=0.5_3=0.0_c=0.0.png  used on input line 143.
 (pdftex.def)             Requested size: 254.32759pt x 219.60318pt.
 <../graphs/conformal/100/f+/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png
-, id=382, 385.34364pt x 332.73108pt>
+, id=424, 385.34364pt x 332.73108pt>
 File: ../graphs/conformal/100/f+/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.
 0.png Graphic file (type png)
 <use ../graphs/conformal/100/f+/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0
@@ -1495,10 +1549,19 @@ Package pdftex.def Info: ../graphs/conformal/100/f+/towers_chi=50.0_J=0.25_h=0.
 25_i=0.5_3=0.0_c=0.0.png  used on input line 144.
 (pdftex.def)             Requested size: 254.32759pt x 219.60318pt.
 
+Overfull \hbox (9.81361pt too wide) in paragraph at lines 143--145
+[][] [][] 
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png, id=3
-87, 382.45284pt x 380.1402pt>
+[19 <../graphs/conformal/ff/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png> <.
+./graphs/conformal/100/--/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png> <../
+graphs/conformal/100/+-/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png> <../gr
+aphs/conformal/100/f+/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png>]
+<../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png, id=4
+45, 382.45284pt x 380.1402pt>
 File: ../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png 
 Graphic file (type png)
 <use ../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png>
@@ -1506,7 +1569,7 @@ Package pdftex.def Info: ../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1
 .0_3=0.0_c=0.0.png  used on input line 154.
 (pdftex.def)             Requested size: 252.41965pt x 250.8933pt.
 <../graphs/entropies/pbc/10-4/calabrese_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png, id
-=388, 411.939pt x 363.37357pt>
+=446, 411.939pt x 363.37357pt>
 File: ../graphs/entropies/pbc/10-4/calabrese_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.pn
 g Graphic file (type png)
 <use ../graphs/entropies/pbc/10-4/calabrese_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png
@@ -1515,43 +1578,10 @@ Package pdftex.def Info: ../graphs/entropies/pbc/10-4/calabrese_J=1.0_h=1.0_i=1
 .0_3=0.856_c=0.0.png  used on input line 155.
 (pdftex.def)             Requested size: 271.88057pt x 239.82729pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (10.80135pt too wide) in paragraph at lines 153--156
+[]  [][] [][] 
+ []
 
-<../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png, id=391, 537.97787pt x 332.731
-08pt>
-File: ../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png Graphic file (type png)
-<use ../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png>
-Package pdftex.def Info: ../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png  used 
-on input line 164.
-(pdftex.def)             Requested size: 355.0665pt x 219.60318pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png, id=393, 39
-1.41432pt x 328.39488pt>
-File: ../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png Graphi
-c file (type png)
-<use ../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png>
-Package pdftex.def Info: ../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1
-.0_c=0.0.png  used on input line 173.
-(pdftex.def)             Requested size: 258.33424pt x 216.74129pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18] [19 <../graphs/conformal/ff/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.pn
-g> <../graphs/conformal/100/--/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png>
- <../graphs/conformal/100/+-/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png> <
-../graphs/conformal/100/f+/gs_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png, id=429, 706.8006pt x 400.08672pt
->
-File: ../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png Graphic file (type png)
-<use ../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png>
-Package pdftex.def Info: ../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png  used on 
-input line 197.
-(pdftex.def)             Requested size: 466.48982pt x 264.05803pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1560,25 +1590,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ng> <../graphs/conformal/100/+-/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0.0
 .png> <../graphs/conformal/100/f+/towers_chi=50.0_J=0.25_h=0.25_i=0.5_3=0.0_c=0
 .0.png>]
+<../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png, id=462, 537.97787pt x 332.731
+08pt>
+File: ../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png Graphic file (type png)
+<use ../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png>
+Package pdftex.def Info: ../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png  used 
+on input line 164.
+(pdftex.def)             Requested size: 355.0665pt x 219.60318pt.
+ [21 <../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png>
+ <../graphs/entropies/pbc/10-4/calabrese_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png> <
+../graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png>]
+<../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png, id=474, 39
+1.41432pt x 328.39488pt>
+File: ../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png Graphi
+c file (type png)
+<use ../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png>
+Package pdftex.def Info: ../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1
+.0_c=0.0.png  used on input line 173.
+(pdftex.def)             Requested size: 258.33424pt x 216.74129pt.
+<../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png, id=482, 706.8006pt x 400.08672pt
+>
+File: ../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png Graphic file (type png)
+<use ../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png>
+Package pdftex.def Info: ../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png  used on 
+input line 197.
+(pdftex.def)             Requested size: 466.48982pt x 264.05803pt.
 
-LaTeX Warning: Text page 21 contains only floats.
 
-[21 <../graphs/entropies/pbc/10-9/calabrese_J=1.0_h=1.0_i=1.0_3=0.0_c=0.0.png> 
-<../graphs/entropies/pbc/10-4/calabrese_J=1.0_h=1.0_i=1.0_3=0.856_c=0.0.png> <.
-./graphs/phase/pbc/J=1.0_h=1.0_i=1.0_c=0.0.png>] [22 <../graphs/through/pbc/L=3
-0.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png> <../graphs/ratios/J=1.0_h=1.0_i=1.0_
-c=0.0.png>]
-<../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0.png, id=464, 706.8006pt x 400.086
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <../graphs/through/pbc/L=30.0_chi=100.0_J=1.0_h=1.0_i=1.0_c=0.0.png>]
+<../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0.png, id=496, 706.8006pt x 400.086
 72pt>
 File: ../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0.png Graphic file (type png)
 <use ../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0.png>
 Package pdftex.def Info: ../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0.png  used
  on input line 206.
 (pdftex.def)             Requested size: 466.48982pt x 264.05803pt.
-) (./chapters/conclusion.tex) [23 <../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0
-.png>] [24
 
-] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapters/conclusion.tex [23 <../graphs/ratios/J=1.0_h=1.0_i=1.0_c=0.0.png>
+]) [24 <../graphs/degeneracy/J=1.0_h=1.0_i=1.0_c=0.0.png>]
+Overfull \hbox (0.73863pt too wide) in paragraph at lines 54--54
+[]\T1/zplTLF/m/n/10.95 Zongan Qiu. [][]``Su-per-sym-me-try, two-dimensional cri
+t-i-cal phe-nom-ena and the tri-crit-i-cal Ising model[][].''
+ []
+
+
 AED: lastpage setting LastPage
 [25] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1586,33 +1646,36 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31924 strings out of 478238
- 613007 string characters out of 5850456
- 1317330 words of memory out of 5000000
- 49500 multiletter control sequences out of 15000+600000
- 572574 words of font info for 69 fonts, out of 8000000 for 9000
+ 31986 strings out of 478238
+ 614161 string characters out of 5850456
+ 1316342 words of memory out of 5000000
+ 49547 multiletter control sequences out of 15000+600000
+ 689328 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,19n,82p,1493b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 79i,19n,82p,1493b,1989s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/share/texmf
 -dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}{/usr/share/texmf-dist/fonts/enc/dvips
-/lato/a_cl4kdn.enc}</usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.p
-fb></usr/share/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
-/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/newpx/zplr.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/zplr
-i.pfb>
-Output written on main.pdf (25 pages, 2459251 bytes).
+/newpx/npxsups_T1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}
+</usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texm
+f-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/share/texmf-dist/fonts/
+type1/public/bbold-type1/bbold10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmext
+ra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/n
+ewpx/npxsups-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xt
+t.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/share/texm
+f-dist/fonts/type1/public/newpx/zplr.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/newpx/zplri.pfb>
+Output written on main.pdf (26 pages, 2552279 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
- 175 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 681 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

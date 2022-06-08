@@ -6,14 +6,14 @@ from scipy.optimize import curve_fit
 
 dataFolder = "../data/"
 
-simul = "energies"
+# simul = "energies"
 # simul = "entropies"
 # simul = "gaps"
 # simul = "phase"
 # simul = "transition"
 # simul = "through"
 # simul = "spin"
-# simul = "conformal"
+simul = "conformal"
 # simul = "pinning"
 # simul = "edge"
 # simul = "ratios"
@@ -356,14 +356,14 @@ if simul=="spin":
 
 if simul=="conformal":
 
-	N = np.array([10, 15, 20, 25, 30]).astype(int)
+	N = np.array([30, 40, 50, 60, 70]).astype(int)
 	chi = 50
 	d = 2
 	useArpack = True
 	k = 10
-	precVar = 1e-3
+	precVar = 1e-6
 	precSing = 1e-10
-	precEig = 1e-5
+	precEig = 1e-8
 	dimKrylov = 4
 	numSweepsMin = 1
 	numSweepsMax = 2
@@ -371,17 +371,18 @@ if simul=="conformal":
 
 	J = 1
 	h = 1
-	lambdaI = 1/4
-	lambda3 = 0.856/8
+	lambdaI = 1
+	lambda3 = 0.856
 	lambdaC = 0
 	
 	pin = 100
+	parity = 0
 
 	for i in range(len(N)):
 
 		dataFilename = f"L={N[i]}_chi={chi}_J={J}_h={h}_i={lambdaI}_3={lambda3}_c={lambdaC}.dat"
 
-		H = mpo.MPO(N[i], J, h, lambdaI, lambda3, lambdaC, "pbc", pin)
+		H = mpo.MPO(N[i], J, h, lambdaI, lambda3, lambdaC, "ff", pin, parity)
 		psi = mps.MPS(N[i], "random")
 		engine = dmrg.DMRGEngine(mpo=H, mps=psi, N=N[i], chi=chi, d=d, useArpack=useArpack, k=k,
 			precVar=precVar, precSing=precSing, precEig=precEig, dimKrylov=dimKrylov,

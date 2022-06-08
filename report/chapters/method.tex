@@ -38,7 +38,7 @@
 		For simplicity, since in OF model \eqref{eq:OF} there is the critical $J=h$ TFI model \eqref{eq:TFI}, the former will be slightly modified by adding the $J$ and $h$ couplings appearing in TFI to only make use of one MPO that allows to switch between the different model just by tuning the different coefficients. The Hamiltonian is therefore
 		\be \mc H = - 2\lambda_I \sum_j [J\sigma^x_j \sigma^x_{j+1} + h\sigma^z_j] + \lambda_3 \sum_j [\sigma^z_j\sigma^x_{j+1}\sigma^x_{j+2} + \sigma^x_j\sigma^x_{j+1}\sigma^z_{j+2}] + \lambda_c \sum_j [\sigma^x_j\sigma^y_{j+1} - \sigma^y_j\sigma^y_{j+1}] \label{eq:modifiedOF} \ee
 
-		To construct the MPO representing \eqref{eq:modifiedOF} in the bulk, only consider one term in the sum over $j$, namely $j=\ell$. Looking at the string of operators from its right end, the action of each operator on each bond moves the string into a new state, whose label correspond to the string of operators on the right of the bond considered. Then the typical action of the term $l$ is viewed as
+		To construct the MPO representing \eqref{eq:modifiedOF} in the bulk, only consider one term in the sum over $j$, namely $j=\ell$. Looking at the string of operators from its right end, the action of each operator on each bond moves the string into a new state, whose label correspond to the string of operators on the right of the bond considered. Then the typical action of the term $\ell$ is viewed as
 		\be \arraycolsep=1.5pt \begin{array}{llclclcll}
 			\cdots &\one \stackrel{7}{\otimes} \one \stackrel{7}{\otimes} &-2\lambda_I h \sigma^z &\stackrel{1}{\otimes} &\one &\stackrel{1}{\otimes} &\one &\stackrel{1}{\otimes} \one &\cdots \\
 			\cdots &\one \stackrel{7}{\otimes} \one \stackrel{7}{\otimes} &-2\lambda_I J \sigma^x &\stackrel{2}{\otimes} &\sigma^x &\stackrel{1}{\otimes} &\one &\stackrel{1}{\otimes} \one &\cdots \\
@@ -99,8 +99,8 @@
 		\end{table}
 
 		To fix a spin on a site, it suffices to introduce a pinning field $h_\text{pin}$ in the direction wanted. Therefore, the term $h_\text{pin} \sigma^x$ is added in the Hamiltonian MPO as 
-		\be W^{[1]} = \bmqty{-2\lambda_I h \sigma^z {\color{magenta}+h_\text{pin}\sigma^x} \\ -2\lambda_I J \sigma^x - \lambda_c \sigma^y \\ \cdot \\ \lambda_3 \sigma^z \\ \lambda_3 \sigma^x \\ \lambda_c \sigma^x \\ \one}^\top \qq{and} W^{[L]} = \bmqty{\one \\ \sigma^x \\ \sigma^z \\ \cdot \\ \cdot \\ \sigma^y \\ -2\lambda_I h \sigma^z {\color{magenta}+h_\text{pin}\sigma^x}} \ee
-		where the bulk $W^{[l]}$, $l\in]1, L[$ remain the same.
+		\be W^{[1]} = \bmqty{-2\lambda_I h \sigma^z {\color{TealBlue}+h_\text{pin}\sigma^x} \\ -2\lambda_I J \sigma^x - \lambda_c \sigma^y \\ \cdot \\ \lambda_3 \sigma^z \\ \lambda_3 \sigma^x \\ \lambda_c \sigma^x \\ \one}^\top \qq{and} W^{[L]} = \bmqty{\one \\ \sigma^x \\ \sigma^z \\ \cdot \\ \cdot \\ \sigma^y \\ -2\lambda_I h \sigma^z {\color{TealBlue}+h_\text{pin}\sigma^x}} \ee
+		where the bulk $W^{[\ell]}$, $\ell\in]1, L[$ remain the same.
 
 	\subsection{MPO construction for PBCs}
 
@@ -113,7 +113,7 @@
 			\label{fig:foldMPS}
 		\end{figure}
 
-		This way to represent the MPS only amounts to change the MPO used. However, one must be very careful when deriving it, as many of the terms in \eqref{eq:OF} appearing at the edges change in a non trivial way. Noticing that $\lambda_c=0$ will be taken to simplify here, the bulk is becoming the $15\times15$ matrix
+		This way to represent the MPS only amounts to change the MPO used. However, one must be very careful when deriving it, as many of the terms in \eqref{eq:OF} appearing at the edges change in a non-trivial way. Noticing that $\lambda_c=0$ will be taken to simplify here, the bulk is becoming the $15\times15$ matrix
 		\be W^{[\ell]} = \bmqty{
 			\one & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot \\
 			\sigma^x & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot \\
@@ -138,7 +138,7 @@
 			\begin{tabular}{c|lllll}
 				$l$ & \multicolumn{1}{c}{$1$} &\multicolumn{1}{c}{$2$} & \multicolumn{1}{c}{$L-3$} & \multicolumn{1}{c}{$L-2$} & \multicolumn{1}{c}{$L-1$} \\
 				\hline
-				\multirow{5}{*}{$W_{ij}^{[l]}$ with $(i,j)$} & $(2, 15)$ : $\mp 2\lambda_I J \sigma^x$ & $(2, 14)$ : $\sigma^z$ & $(10, 15)$ : $\lambda_3 \sigma^z$ & $(6, 10)$ : $\one$ & $(2, 6)$ : $\sigma^x$ \\
+				\multirow{5}{*}{$W_{ij}^{[l]}$ with $(j,i)$} & $(2, 15)$ : $\mp 2\lambda_I J \sigma^x$ & $(2, 14)$ : $\sigma^z$ & $(10, 15)$ : $\lambda_3 \sigma^z$ & $(6, 10)$ : $\one$ & $(2, 6)$ : $\sigma^x$ \\
 				& $(7, 15)$ : $\pm \lambda_3 \sigma^x$ & $(3, 7)$ : $\sigma^x$ & $(11, 15)$ : $\lambda_3 \sigma^x$ & $(6, 15)$ : $\lambda_3 \sigma^z$ & $(2, 14)$ : $\sigma^z$ \\
 				& $(8, 15)$ : $\lambda_3 \sigma^z$ & & & $(7, 11)$ : $\one$ & $(2, 15)$ : $-2\lambda_I J \sigma^x$ \\
 				& $(9, 15)$ : $\pm \lambda_3 \sigma^x$ & & & $(14, 15)$ : $\lambda_3 \sigma^x$ & $(3, 7)$ : $\sigma^x$ \\
@@ -163,7 +163,7 @@
 
 		The Hamiltonian \eqref{eq:OF} with $\lambda_c=0$ is $\mathbb Z_2$-symmetric commuting with the unitary spin-flip operator $\mc F$ defined as
 		\be \mc F \equiv \prod_j \sigma^z_j \ee
-		which also called the fermion-number parity. Moreover, $\mc F^2 =1$, meaning $\mc H$ is divided into sectors corresponding to the eigenvalues $\pm$ of $\mc F$. It is called the spin-flip since it flip all the spins along the $x$-direction as it can be seen from
+		which also called the fermion-number parity. Moreover, $\mc F^2 =\one$, meaning $\mc H$ is divided into sectors corresponding to the eigenvalues $\pm$ of $\mc F$. It is called the spin-flip since it flip all the spins along the $x$-direction as it can be seen from
 		\be \begin{split} \sigma^z \ket \pm &= \frac{1}{\sqrt 2} \sigma^z [\ket \uparrow \pm \ket \downarrow] = \frac{1}{\sqrt 2} [\ket \uparrow \mp \ket \downarrow] \\ &= \ket \mp \end{split} \ee
 		where $\ket \uparrow$ and $\ket \downarrow$ are the spin up and down in the $z$-direction. This parity operator will be useful to compute ratios of energies deriving from conformal dimension of operators at the critical points described by a CFT. 
 
@@ -187,7 +187,7 @@
 		\be S(\ell) = -\sum_{i=1}^{n} s^2_i(\ell) \ln s^2_i(\ell) \ee
 		where $s_i(\ell)$ is the $i^\text{th}$ singular value on bond $\ell$ and $n= \min(2^\ell, 2^{L-\ell}, \chi)$, with $\chi$ the maximum bond dimension allowed that is fixed or depends on the cut-off of the singular values chosen. Moreover, the $\ell$ bonds are taken to be around the middle of the chain, typically the middle-third of it.
 
-		There is also another formula derived directly from \eqref{eq:cardyOBCs} that tends to remove the finite size effects \cite{nishimoto2011} by taking the entropy on the middle of the chain and slightly off. For OBCs,
+		There is also another formula derived directly from \eqref{eq:cardyOBCs} that tends to remove the finite size effects \cite{nishimoto2011} by taking the entropy in the middle of the chain and slightly off. For OBCs,
 		\be \begin{split} S\left(\frac L 2 - 1\right) - S\left(\frac L 2\right) &= \frac{c}{6} \ln\left[\frac{2L}{\pi} \sin \left(\frac \pi 2 - \frac \pi L\right) \right] - \frac{c}{6} \ln \frac{2L}{\pi} \\ &= \frac{c}{6} \ln \cos \frac{\pi}{L} \end{split} \ee
 		which therefore gives
 		\be c = 6 \frac{S\left(\frac L 2 - 1\right)- S\left(\frac L 2\right)}{\ln \cos \frac{\pi}{L}} \label{eq:otherOBCs} \ee
