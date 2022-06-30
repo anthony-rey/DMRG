@@ -6,7 +6,7 @@
 		The Transverse-Field Ising (TFI) model for spin-$1/2$ will be used as a benchmark of the simulations. It is defined for a chain of length $L$ with open boundary conditions as
 		\be \mc H = - J \sum_j \sigma^x_j \sigma^x_{j+1} - h \sum_j \sigma^z_j \label{eq:TFI} \ee
 		where it is made implicit that 
-		\be \sigma^\alpha_j = \underbrace{\one \otimes \cdots \otimes \one}_{j-1} \otimes \sigma^\alpha \otimes \underbrace{\one \otimes \cdots \otimes \one}_{L-j-1} \ee
+		\be \sigma^\alpha_j = \underbrace{\one \otimes \cdots \otimes \one}_{j-1} \otimes \sigma^\alpha \otimes \underbrace{\one \otimes \cdots \otimes \one}_{L-j} \ee
 		with $\sigma^\alpha$ is the Pauli matrix for $\alpha=x,y,z$. This model undergoes a quantum phase transition at critical point $J=\pm h$. Here, only $J, h > 0$ will be considered.
 
 	\subsection{O'Brien and Fendley}
@@ -56,7 +56,7 @@
 		To prove \eqref{eq:propJ2}, recall that $c^\dagger_k c_k \in \{0,1\}$ then $e^{i\pi\sum_{k=1}^{j-1} c^\dagger_k c_k} = \prod_{k=1}^{j-1} e^{i\pi c^\dagger_k c_k}$. Since
 		\be e^{i\pi c^\dagger_k c_k} = \begin{cases} 1 & \text{if } c^\dagger_k c_k = 0 \\ -1 & \text{if } c^\dagger_k c_k = 1 \end{cases} \implies e^{i\pi c^\dagger_k c_k} = 1-2c^\dagger_k c_k \ee
 		To prove \eqref{eq:propJ3}, simply notice that using $c_k c^\dagger_k = 1-c^\dagger_k c_k$
-		\be \begin{split} (1-2c^\dagger_k c_k)^2 &= 1 - 4c^\dagger_k c_k + 4c^\dagger_k c_k = 1 -4 c^\dagger_k c_k + 4c^\dagger_k c_k \\ &= 1 \end{split} \ee
+		\be \begin{split} (1-2c^\dagger_k c_k)^2 &= 1 - 4c^\dagger_k c_k + 4c^\dagger_k c_k c^\dagger_k c_k = 1 -4 c^\dagger_k c_k + 4c^\dagger_k c_k \\ &= 1 \end{split} \ee
 		To prove \eqref{eq:propJ4}, it suffices to recall that every fermionic operator anticommute with any other one on different sites. Since $J_i$ involves only operators $c^\dagger_k c_k \ \forall k<i$, passing any $c_j, c^\dagger_j$ across $J_i$ costs a factor $(-1)^2=1$.
 		These allow to write
 		\be \begin{split} b^\dagger_j b_j &= c^\dagger_j J^\dagger J_j c_j = c^\dagger J^
